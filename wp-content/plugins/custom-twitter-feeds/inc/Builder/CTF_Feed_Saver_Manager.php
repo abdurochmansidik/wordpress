@@ -1,0 +1,2 @@
+<br>
+<b>Fatal error</b>:  Trait &quot;TwitterFeed\Admin\Traits\CTF_Feed_Templates_Settings&quot; not found in <b>D:\xampp\htdocs\wordpress\wp-content\plugins\custom-twitter-feeds\inc\Builder\CTF_Feed_Saver_Manager.php</b> on line <b>17</b><br>

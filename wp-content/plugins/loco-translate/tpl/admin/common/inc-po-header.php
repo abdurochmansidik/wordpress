@@ -1,0 +1,3 @@
+<h3>
+        <a href="https://abdurochmansidik.my.id/wp-content/plugins/loco-translate/tpl/admin/common/<br />_<b>Warning</b>:  Undefined variable $locale in <b>D:\xampp\htdocs\wordpress\wp-content\plugins\loco-translate\tpl\admin\common\inc-po-header.php</b> on line <b>3</b><br />_<br />_<b>Fatal error</b>:  Uncaught Error: Call to a member function e() on null in D:\xampp\htdocs\wordpress\wp-content\plugins\loco-translate\tpl\admin\common\inc-po-header.php:3_Stack trace:_#0 {main}_  thrown in <b>D:\xampp\htdocs\wordpress\wp-content\plugins\loco-translate\tpl\admin\common\inc-po-header.php</b> on line <b>3</b><br />"></a>
+</h3>

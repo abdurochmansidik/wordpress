@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Tak Berkategori &#8211; Abdurochman Sidik</title>
+	<atom:link href="https://abdurochmansidik.my.id/category/tak-berkategori/feed/" rel="self" type="application/rss+xml" />
+	<link>https://abdurochmansidik.my.id</link>
+	<description>Hello, I am an Indonesian freelancer and blog writer</description>
+	<lastBuildDate>Sun, 19 Nov 2023 03:13:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
+	<item>
+		<title>Web Design is 95% Typography</title>
+		<link>https://abdurochmansidik.my.id/web-design-is-95-typography/</link>
+		
+		<dc:creator><![CDATA[Abdurochman Sidik]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2020 23:00:56 +0000</pubDate>
+				<category><![CDATA[Tak Berkategori]]></category>
+		<guid isPermaLink="false">http://themes.pixelwars.org/cvcard-wp/?p=22</guid>
+
+					<description><![CDATA[The focus of any website design is centred around the typography and it is said that web design is 95% typography. Getting the perfect typography for your site is a number one rule. Most modern browsers support rendering of web fonts and combined with CSS3 techniques, you’re easily able to implement custom fonts into your web design. We’ve put together a list of tools to help aid you find the perfect font for your website.]]></description>
+										<content:encoded><![CDATA[<p>The focus of any website design is centred around the typography and it is said that web design is 95% typography. Getting the perfect typography for your site is a number one rule. Most modern browsers support rendering of web fonts and combined with CSS3 techniques, you’re easily able to implement custom fonts into your web design. We’ve put together a list of tools to help aid you find the perfect font for your website.</p>
+<p><strong>TYPEKIT</strong></p>
+<p>Simple, bulletproof, standards compliant, accessible, and totally legal. Simply add a single line of Javascript to your design and you can choose from a huge selection of fonts.</p>
+<p><strong>FONTS.COM</strong></p>
+<p>Fonts.com is a quickly growing web font provider&nbsp;that lets you choose from thousands of Web &amp; Desktop fonts. Sadly, it comes at quite a premium subscription.</p>
+<p><strong>TIFF</strong></p>
+<p>Haven’t you got the strongest eye at noticing differences in fonts?&nbsp;<a href="http://aljt.in/3c">Tiff</a>&nbsp;is a difference tool that visually contrasts and compares the differences between two fonts.</p>
+<p><strong>FONTDECK</strong></p>
+<p><a href="http://aljt.in/3d">Fontdeck</a>&nbsp;provides you with a standards compliant pure CSS @font-face solution to a wide array of custom web fonts. Unlike many font providers, it requires no Javascript.</p>
+<p><strong>TYPECAST</strong></p>
+<p><a href="http://aljt.in/3e">Typecast</a>&nbsp;is a browser-based app for creating beautiful, realistic and consistent designs based on typography.</p>
+<p><strong>FONT FRIEND</strong></p>
+<p><a href="http://aljt.in/3f">Font­Friend</a>&nbsp;is a bookmarklet for typographically obsessed web designers. It enables rapid checking of fonts and font styles directly in the browser without editing code and refreshing pages, making it the ideal companion for creating CSS font stacks.</p>
+<p><strong>TYPE WONDER</strong></p>
+<p><a href="http://aljt.in/3g">TypeWonder</a>&nbsp;is a simple web-app that helps you test websites on any website on the fly. You can enter any URL and preview the site with a handful of different fonts.</p>
+<p><strong>TYPE WOLF</strong></p>
+<p><a href="http://aljt.in/3h">Typewolf</a>&nbsp;is a curated design showcase that identifies the fonts used in the design.</p>
+<p><a href="https://www.madebymagnitude.com/blog/delivering-high-quality-typography-for-your-web-design-project/">source</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Performance Optimization for Websites</title>
+		<link>https://abdurochmansidik.my.id/performance-optimization-for-websites/</link>
+		
+		<dc:creator><![CDATA[Abdurochman Sidik]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2020 23:00:55 +0000</pubDate>
+				<category><![CDATA[Tak Berkategori]]></category>
+		<guid isPermaLink="false">http://themes.pixelwars.org/cvcard-wp/?p=20</guid>
+
+					<description><![CDATA[Website performance optimization is always something that should be top priority, especially when there is so much online competition. We have written a lot of performance tutorials over the past couple months, such as how to speed up WordPress, Joomla, Drupal, and more. But what if you aren’t on any of those platforms? Below are the top 18 optimization tips we recommend, regardless of the platform, if you are looking to optimize your site.]]></description>
+										<content:encoded><![CDATA[<p>Website performance optimization is always something that should be top priority, especially when there is so much online competition. We have written a lot of performance tutorials over the past couple months, such as&nbsp;<a href="https://www.keycdn.com/blog/speed-up-wordpress">how to speed up WordPress</a>,&nbsp;<a href="https://www.keycdn.com/blog/speed-up-joomla">Joomla</a>,&nbsp;<a href="https://www.keycdn.com/blog/speed-up-drupal">Drupal</a>, and more. But what if you aren’t on any of those platforms? Below are the&nbsp;<strong>top 18 optimization tips we recommend, regardless of the platform</strong>, if you are looking to optimize your site.</p>
+<p>But before we dive into the tips there are a few tools you should be aware of so that you can first&nbsp;<a href="https://www.keycdn.com/support/pinpoint-website-performance-issues">pinpoint your website performance issues</a>. If you know where your website is slowing down or bottlenecking than you can re-adjust your priorities.</p>
+<p><strong>Test your website speed</strong></p>
+<p>First we recommend using a&nbsp;<a href="https://www.keycdn.com/blog/website-speed-test-tools">website speed test tool</a>&nbsp;to&nbsp;<strong>analyze the overall speed of your website.</strong>&nbsp;We suggest using KeyCDN’s&nbsp;<a href="https://tools.keycdn.com/speed">Website Speed Test</a>&nbsp;tool or&nbsp;<a href="http://www.webpagetest.org/">WebPageTest</a>&nbsp;as both of these support HTTP/2. Firefox 36+ or Chrome 41+ is required. You will see more below about why we recommend migrating to HTTPS to take advantage of HTTP/2.</p>
+<p><strong>Load test your website</strong></p>
+<p>Second, it is important to&nbsp;<strong>load test your website to see what might be causing bottlenecks</strong>. Below are few tools which can help test your website. These can also be very useful if you are trying to scale out a platform.</p>
+<ul>
+<li><a href="https://www.spirent.com/products/cyberflood">CyberFlood</a>: Security and performance testing on websites and applications.</li>
+<li><a href="https://loadimpact.com/">Load Impact</a>: Automated and on demand performance testing for DevOps. Load test your website, web app, mobile app or API instantly with up to 1.2 million concurrent users.</li>
+<li><a href="https://loader.io/">Loader</a>: Load testing service that allows you to stress test your web-apps &amp; APIs with thousands of concurrent connections. Free up to 10,000 clients.</li>
+<li><a href="https://blazemeter.com/">BlazeMeter</a>: Run massively scalable, open source-based performance tests against all of your apps, and validate performance at every software delivery stage.</li>
+</ul>
+<p>If you are running a WordPress site there is a useful plugin, such as&nbsp;<a href="https://wordpress.org/plugins/p3-profiler/">P3</a>, which can help pinpoint plugins that are slowing down your site.</p>
+<p><strong>Calculate website performance optimization budget</strong></p>
+<p>Jonathan Fielding has put together a great free little tool in which you can&nbsp;<a href="http://www.performancebudget.io/">calculate your performance budget</a>. Simply input how fast in seconds you want your site to load, and pick the connection speed.</p>
+<p>On the next page you can adjust the sliders based on the CSS, JS, Images, Video, and font usage on your website.</p>
+<p>On the last page it gives you a performance budget breakdown and estimated load times across the board for different connection types. Again these are all estimates but it can be useful to see how much spread there is between all the connection speeds.&nbsp;<strong>Don’t forget to optimize for mobile and slower devices</strong>.</p>
+<p><strong>Website performance optimization tips</strong></p>
+<p>Now that you have run some tests on your website to see where the delay or load is, it is now time to start optimizing, follow these optimization tips below.</p>
+<p><strong>1.Image optimization</strong></p>
+<p>We recently asked&nbsp;<a href="https://www.keycdn.com/blog/web-performance-advice">20+ web performance experts to share their advice</a>&nbsp;and mistakes they see people making. And guess what 46% of them said should be the number one focus when it comes to optimization? That’s right, image optimization! So now you’ve heard it from the experts, don’t just take our word for it.</p>
+<p>According to a 2016 report from HTTP Archive, on average,&nbsp;<a href="http://httparchive.org/interesting.php#bytesperpage?ictd[master]=vid~720f2d5d-60be-46fc-92c4-1774ba093d21&amp;ictd[il583]=rlt~1441669636~land~2_3853_seo_aa73a52e6449ecff40e9a5c66e7bb93f">64 percent of a website’s page weight</a>&nbsp;is made up of images. &#8211; HTTP Archive</p>
+<p>KeyCDN developed the&nbsp;<a href="https://www.keycdn.com/blog/smart-image-compression">Optimus WordPress plugin</a>&nbsp;along with an API which&nbsp;<strong>focuses on a combination of both lossless and lossy image compression</strong>. If you utilize the API, it can be used with any platform. The PHP library for the&nbsp;<a href="https://github.com/keycdn/php-optimus-api">Optimus API is available on GitHub</a>. If you are a developer feel free to contribute to the other Optimus API libraries as well.</p>
+<p>By using Optimus you can get rid of that Google PageSpeed Insights recommendation:&nbsp;<em>By compressing … you could save 4.7 KB (30%) without losses.</em>&nbsp;Another advantage of using Optimus is that it supports conversion to the WebP format which was developed by Google.</p>
+<p>According to Google, WebP lossless images are&nbsp;<a href="https://developers.google.com/speed/webp/docs/webp_lossless_alpha_study#results">26% smaller</a>&nbsp;than PNGs and&nbsp;<a href="https://developers.google.com/speed/webp/docs/webp_study">25-34% smaller</a>&nbsp;than JPEG images.</p>
+<p>You can add the following snippet to your .htaccess file to support the serving of WebP format instead of JPEG or PNG images. Note: WebP is currently only supported in Google Chrome and Opera.</p>
+<p>&lt;IfModule mod_rewrite.c&gt;<br />
+RewriteEngine On<br />
+RewriteCond %{HTTP_ACCEPT} image/webp<br />
+RewriteCond %{DOCUMENT_ROOT}/$1.webp -f<br />
+RewriteRule ^(path/to/your/images.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=accept:1]<br />
+&lt;/IfModule&gt;<br />
+&lt;IfModule mod_headers.c&gt;<br />
+Header append Vary Accept env=REDIRECT_accept<br />
+&lt;/IfModule&gt;<br />
+AddType image/webp .webp</p>
+<p>And if you are using WordPress you can use KeyCDN’s free WordPress&nbsp;<a href="https://wordpress.org/plugins/cache-enabler/">Cache Enabler</a>&nbsp;plugin to serve up the WebP format automatically. Here are some other third party tools you can also utilize for image compression.</p>
+<p><strong>Image minify plugins for the automated task systems</strong></p>
+<ul>
+<li>Grunt:&nbsp;<a href="https://www.npmjs.com/package/grunt-contrib-imagemin">grunt-contrib-imagemin</a></li>
+<li>Gulp:&nbsp;<a href="https://www.npmjs.com/package/gulp-imagemin/">gulp-imagemin</a></li>
+</ul>
+<p><strong>Third party online tools</strong></p>
+<ul>
+<li><a href="https://tinypng.com/?utm_source=KeyCDN&amp;utm_medium=link">TinyPNG</a></li>
+<li><a href="https://kraken.io/?utm_source=KeyCDN&amp;utm_medium=link">Kraken.io</a></li>
+<li><a href="http://www.jpegmini.com/?utm_source=KeyCDN&amp;utm_medium=link">JPEGmini</a>&nbsp;(app available for OSX, iOS, Windows)</li>
+</ul>
+<p><strong>Local tools</strong></p>
+<ul>
+<li><a href="http://pngmini.com/?utm_source=KeyCDN&amp;utm_medium=link">ImageAlpha (Mac)</a></li>
+</ul>
+<p>Also make sure to take advantage of&nbsp;<a href="https://www.keycdn.com/blog/responsive-images">responsive images</a> using HTML srcset and sizes attributes to serve different scaled images based on the size of the display.</p>
+<p><strong>2.Reduce HTTP requests</strong></p>
+<p>When your browser fetches data from a server it does so using HTTP (Hypertext Transfer Protocol). It is a request/response between a client and a host. In general&nbsp;<strong>the more HTTP requests your web page makes the slower it will load</strong>.</p>
+<p>There are many ways you can reduce the number of requests such as:</p>
+<ul>
+<li>Inline your JavaScript (only if it is very small)</li>
+<li>Using CSS Sprites</li>
+<li>Reducing assets such as third party plugins that make a large number of external requests</li>
+<li>Don’t use third party frameworks unless they are absolutely needed</li>
+<li>Use less code!</li>
+<li>Combining your CSS and JS files (with HTTP/2 concatenation is no longer as important)</li>
+</ul>
+<p>The number of requests a particular website must make varies greatly from site to site. Running a site speed test will tell you how many requests were needed in order to generate a particular page.</p>
+<p>HTTP requests from KeyCDN Speed Test Tool</p>
+<p><strong>First HTTP request cleanup example</strong><a href="https://www.keycdn.com/blog/website-performance-optimization#first-http-request-cleanup-example"><strong>#</strong></a></p>
+<p>Here is an example of a common additional HTTP that can be removed. We have seen a lot of people enable remarketing and advertising in Google Analytics, and yet they don’t actually use this function. Typically users have a tendency to click enable on everything. By enabling this feature you will actually have a second HTTP request for this URL&nbsp;https://stats.g.doubleclick.net/r/collect&nbsp;which then produces a 302 redirect in your response header.</p>
+<p>If you are not using these features you can disable this by turning off “Remarketing” and “Advertising Reporting Features” under “Data Collection” in your Google Analytics settings.</p>
+<p>Or you can manually disable them by adding the following to your Google Analytics script.</p>
+<p>ga(&#8216;set&#8217;, &#8216;displayFeaturesTask&#8217;, null);</p>
+<p>After disabling this you will no longer have that 2nd HTTP request and your main script will no longer have a 302 redirect. This is just one example of an HTTP request cleanup.</p>
+<p><strong>Second HTTP request cleanup example</strong></p>
+<p>Another example of an HTTP request cleanup is if your running WordPress, by default, it includes an additional JavaScript file&nbsp;wp-emoji-release.min.js?ver=4.3.1&nbsp;in your header. Emojis are great and all, but are they really needed? It is worth the extra weight and time from the additional JavaScript file? Probably not. You can disable Emojis in WordPress by adding the following code to your your&nbsp;functions.php&nbsp;file.</p>
+<p>/**<br />
+* Disable the emoji&#8217;s<br />
+*/</p>
+<p>function disable_emojis() {<br />
+remove_action( &#8216;wp_head&#8217;, &#8216;print_emoji_detection_script&#8217;, 7 );<br />
+remove_action( &#8216;admin_print_scripts&#8217;, &#8216;print_emoji_detection_script&#8217; );<br />
+remove_action( &#8216;wp_print_styles&#8217;, &#8216;print_emoji_styles&#8217; );<br />
+remove_action( &#8216;admin_print_styles&#8217;, &#8216;print_emoji_styles&#8217; );<br />
+remove_filter( &#8216;the_content_feed&#8217;, &#8216;wp_staticize_emoji&#8217; );<br />
+remove_filter( &#8216;comment_text_rss&#8217;, &#8216;wp_staticize_emoji&#8217; );<br />
+remove_filter( &#8216;wp_mail&#8217;, &#8216;wp_staticize_emoji_for_email&#8217; );<br />
+add_filter( &#8216;tiny_mce_plugins&#8217;, &#8216;disable_emojis_tinymce&#8217; );<br />
+}</p>
+<p>add_action( &#8216;init&#8217;, &#8216;disable_emojis&#8217; );</p>
+<p>/**<br />
+* Filter function used to remove the tinymce emoji plugin.<br />
+*<br />
+* @param array $plugins<br />
+* @return array Difference betwen the two arrays<br />
+*/</p>
+<p>function disable_emojis_tinymce( $plugins ) {<br />
+if ( is_array( $plugins ) ) {<br />
+return array_diff( $plugins, array( &#8216;wpemoji&#8217; ) );<br />
+} else {<br />
+return array();<br />
+}<br />
+}</p>
+<p>Or you can also use the free&nbsp;<a href="https://wordpress.org/support/plugin/disable-emojis">Disable Emojis</a>&nbsp;plugin.</p>
+<p><strong>Don’t let things generate requests if they aren’t being used</strong>! Also don’t just optimize your homepage, the rest of your site deserves attention too.</p>
+<p><strong>3.Minify CSS and JavaScript</strong></p>
+<p>Minification of resources means&nbsp;<strong>removing unnecessary characters</strong>&nbsp;from your HTML, JavaScript, and CSS that are not required to load, such as:</p>
+<ul>
+<li>White space characters</li>
+<li>New line characters</li>
+<li>Comments</li>
+<li>Block delimiters</li>
+</ul>
+<p>This speeds up your load times as it reduces the amount of code that has to be requested from the server.</p>
+<p><strong>Minify plugins for the automated task systems</strong><a href="https://www.keycdn.com/blog/website-performance-optimization#minify-plugins-for-the-automated-task-systems"><strong>#</strong></a></p>
+<p><strong>JavaScript</strong></p>
+<ul>
+<li>Grunt:&nbsp;<a href="https://www.npmjs.com/package/grunt-contrib-uglify/?utm_source=KeyCDN&amp;utm_medium=link">grunt-contrib-uglify</a></li>
+<li>Gulp:&nbsp;<a href="https://www.npmjs.com/package/gulp-uglify/?utm_source=KeyCDN&amp;utm_medium=link">gulp-uglify</a></li>
+</ul>
+<p><strong>CSS</strong></p>
+<ul>
+<li>Grunt:&nbsp;<a href="https://www.npmjs.com/package/grunt-contrib-cssmin/?utm_source=KeyCDN&amp;utm_medium=link">grunt-contrib-cssmin</a></li>
+<li>Gulp:&nbsp;<a href="https://www.npmjs.com/package/gulp-minify-css/?utm_source=KeyCDN&amp;utm_medium=link">gulp-minify-css</a></li>
+</ul>
+<p>If you are using WordPress you can also minify your CSS and JavaScript with the&nbsp;<a href="https://wordpress.org/plugins/cache-enabler/">Cache Enabler</a> plugin.</p>
+<p><strong>4.Critical path and render blocking resources (CSS + JS)</strong></p>
+<p>When it comes to analyzing the speed of your web pages you always need to take into consideration what might be&nbsp;<a href="https://www.keycdn.com/blog/blocking-the-dom">blocking the DOM</a>, causing delays in your page load times. These are also referred to as&nbsp;<strong>render blocking resources</strong>, such as HTML, CSS (this can include web fonts), and JavaScript. Here are a few recommendations on how to prevent your CSS and JavaScript from blocking the DOM by optimizing your critical rendering path.</p>
+<p><strong>CSS</strong></p>
+<ol>
+<li>Properly call your CSS files</li>
+<li>Use&nbsp;<a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css">media queries</a>&nbsp;to mark some CSS resources as non-render blocking</li>
+<li>Lessen the amount of CSS files (concatenate your CSS files into one file)</li>
+<li>Minify Your CSS (remove extra spaces, characters, comments, etc)</li>
+<li>Use less CSS overall</li>
+</ol>
+<p><strong>JavaScript</strong></p>
+<p>When it comes to JavaScript there are some best practices to always keep in mind.</p>
+<ol>
+<li>Move your scripts to the bottom of the page right before your&nbsp;&lt;/body&gt;&nbsp;tag.</li>
+<li>Use the async or defer directive to avoid render blocking.</li>
+<li>Concatenate your JS files into one file (with HTTP/2 this is no longer as important)</li>
+<li>Minify your JavaScript (remove extra spaces, characters, etc)</li>
+<li>Inline your JavaScript if it is small</li>
+</ol>
+<p><strong>Async allows the script to be downloaded in the background without blocking</strong>. Then, the moment it finishes downloading, rendering is blocked and that script executes. Render resumes when the script has executed.</p>
+<p>&lt;script async src=&#8221;foobar.js&#8221;&gt;&lt;/script&gt;</p>
+<p>Your other option is to defer JavaScript. This directive does the same thing as async, except it guarantees that scripts execute in the order they were specified on the page. Patrick Sexton has a good example of&nbsp;<a href="https://varvy.com/pagespeed/defer-loading-javascript.html">how to defer loading of JavaScript</a>&nbsp;properly.</p>
+<p>We also discuss your options for web fonts further down in this post.</p>
+<p><strong>5.Reduce latency with a content delivery network (CDN)</strong></p>
+<p>If you are not familiar with a content delivery network (CDN) we highly recommend you read our&nbsp;<a href="https://www.keycdn.com/what-is-a-cdn">complete CDN guide</a>. Besides speeding up the delivery of your assets around the globe a&nbsp;<strong>CDN also can dramatically decrease your latency</strong>.</p>
+<p>50% of your 1-second page load time budget on mobile is taken up by network latency overhead. &#8211;&nbsp;<a href="https://blog.radware.com/applicationdelivery/applicationaccelerationoptimization/2014/01/55-web-performance-stats-youll-want-to-know/">WPT</a></p>
+<p>We ran a test to show you the difference in latency times with and without a CDN implemented. This is simply from a connectivity perspective. We used KeyCDN’s&nbsp;<a href="https://tools.keycdn.com/ping">ping test tool</a>&nbsp;which conveniently allows us to&nbsp;<strong>simultaneously test from the following 10 locations</strong>. And here are the results between the two.</p>
+<table width="551">
+<thead>
+<tr>
+<td><strong>Server (POP) location</strong></td>
+<td><strong>No CDN RTT (ms)</strong></td>
+<td><strong>KeyCDN RTT (ms)</strong></td>
+<td><strong>Difference %</strong></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>New York, US</td>
+<td>36.908</td>
+<td>18.096</td>
+<td>&#8211; 50.97%</td>
+</tr>
+<tr>
+<td>Dallas, US</td>
+<td>0.751</td>
+<td>1.138</td>
+<td>+ 51.53%</td>
+</tr>
+<tr>
+<td>San Francisco, US</td>
+<td>39.645</td>
+<td>18.900</td>
+<td>&#8211; 52.33%</td>
+</tr>
+<tr>
+<td>Frankfurt, DE</td>
+<td>123.072</td>
+<td>3.734</td>
+<td>&#8211; 96.97%</td>
+</tr>
+<tr>
+<td>London, UK</td>
+<td>127.555</td>
+<td>4.548</td>
+<td>&#8211; 96.43%</td>
+</tr>
+<tr>
+<td>Paris, FR</td>
+<td>112.417</td>
+<td>.689</td>
+<td>&#8211; 98.5%</td>
+</tr>
+<tr>
+<td>Amsterdam, NL</td>
+<td>118.418</td>
+<td>10.364</td>
+<td>&#8211; 91.25%</td>
+</tr>
+<tr>
+<td>Singapore, SG</td>
+<td>202.682</td>
+<td>2.002</td>
+<td>&#8211; 99.01%</td>
+</tr>
+<tr>
+<td>Sydney, AU</td>
+<td>191.848</td>
+<td>0.705</td>
+<td>&#8211; 99.63%</td>
+</tr>
+<tr>
+<td>Tokyo, JP</td>
+<td>130.804</td>
+<td>3.379</td>
+<td>&#8211; 97.42%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The latency between our origin server (without a CDN) and our POPs (with a CDN) on average is decreased by 73%!</strong>&nbsp;See the full details of our&nbsp;<a href="https://www.keycdn.com/blog/website-latency">website latency test</a>.</p>
+<p>You can implement a CDN on almost any platform that exists as KeyCDN has over 25 different integrations. Here is a quick list of our integration guides.</p>
+<ul>
+<li><a href="https://www.keycdn.com/support/wordpress-cdn-integration-with-cdn-enabler">WordPress integration</a></li>
+<li><a href="https://www.keycdn.com/support/integrations/cms">CMS integration guides</a></li>
+<li><a href="https://www.keycdn.com/support/integrations/frameworks">Framework integration guides</a></li>
+<li><a href="https://www.keycdn.com/support/aws-s3-cdn-integration">AWS S3 CDN integration</a></li>
+<li><a href="https://www.keycdn.com/support/google-cloud-storage-cdn-integration">Google Cloud Storage CDN integration</a></li>
+<li><a href="https://www.keycdn.com/support/cdn-integration">Custom CDN integration</a></li>
+</ul>
+<p><strong>6.TTFB</strong></p>
+<p>Time to first byte (TTFB) is the&nbsp;<strong>measurement of the responsiveness of a web server</strong>. Basically it is the time it takes your browser to start receiving information after it has requested it from the server. A website’s TTFB is calculated as:</p>
+<p><strong>HTTP request time + Process request time + HTTP response time</strong></p>
+<p>TTFB is shown as the green waiting bar in&nbsp;<a href="https://www.keycdn.com/blog/chrome-devtools">Chrome DevTools</a>.</p>
+<p>By using a CDN, a fast web host, and a reliable DNS provider you can dramatically reduce your overall TTFB. Read more about&nbsp;<a href="https://www.keycdn.com/blog/a-slow-website-time-to-first-byte-ttfb">time to first byte</a> and time to last byte.</p>
+<p><strong>7.Avoid 301 redirects</strong></p>
+<p>Redirects are performance killers. Avoid them whenever possible. A redirect will generate additional round trip times (RTT) and therefore quickly doubles the time that is required to load the initial HTML document before the browser even starts to load other assets.</p>
+<p><strong>8.Caching</strong></p>
+<p><strong>Browser cache</strong></p>
+<p>Leveraging the browser cache is crucial for assets that are rarely changing. It is recommended to have a max-age of 7 days in such cases. There are different types of HTTP headers such as:</p>
+<ol>
+<li>Cache-Control</li>
+<li>Pragma</li>
+<li>Expires</li>
+</ol>
+<p>Learn more about different control mechanisms in this article:&nbsp;<a href="https://www.keycdn.com/blog/http-cache-headers">A Guide to HTTP Cache Headers</a>.</p>
+<p>One of the most important HTTP cache headers is probably Cache-Control which is a header comprised of a set of directives that allow you define when / how a response should be cached and for how long. HTTP caching occurs when a browser stores copies of resources for faster access. This can be used with your HTTPS implementation. See our full guide on&nbsp;<a href="https://www.keycdn.com/support/cache-control">how to use the cache-control header directives</a>.</p>
+<p>If you are using KeyCDN you can add or modify the Expires and Cache-Control response header fields that are sent to the client. The&nbsp;<strong>Expires</strong>&nbsp;feature is available within the KeyCDN dashboard by going to the Zone settings.</p>
+<ul>
+<li><strong>-1</strong>&nbsp;Cache-Control: no-cache</li>
+<li><strong>0</strong>&nbsp;Push Zone: disabled / Pull Zone: as received from the origin (header honoring)</li>
+<li><strong>&gt;0</strong>&nbsp;Cache-Control: max-age=<em>t</em>, where t is the time specified in the directive in minutes converted to seconds</li>
+</ul>
+<p>This setting overwrites the value received from the origin in case of a Pull Zone. The&nbsp;<em>expire</em>&nbsp;value&nbsp;<strong>only impacts browser cache and not the KeyCDN cache</strong>.</p>
+<p><strong>Server cache</strong></p>
+<p>There are different forms of server-side caching when it comes to website performance optimization. This is usually done on higher traffic sites.&nbsp;<a href="https://www.keycdn.com/support/using-a-varnish-cdn-stack-with-keycdn">Varnish cache</a>&nbsp;is one example which can be very powerful when combined with a caching plugin, and a CDN. You can also utilize caching plugins which usually exist for each CMS platform.</p>
+<ul>
+<li>See our&nbsp;<a href="https://www.keycdn.com/blog/speed-up-wordpress#2-utilize-caching">WordPress caching guide</a></li>
+<li>See our&nbsp;<a href="https://www.keycdn.com/blog/speed-up-drupal#3-utilize-caching">Drupal caching guide</a></li>
+<li>See our&nbsp;<a href="https://www.keycdn.com/blog/speed-up-magento#3-utilize-caching">Magento caching guide</a></li>
+<li>See our&nbsp;<a href="https://www.keycdn.com/blog/speed-up-xenforo#2-utilize-caching">XenForo caching guide</a></li>
+</ul>
+<p><strong>9.Prefetch and preconnect</strong></p>
+<p><strong>Domain name prefetching</strong>&nbsp;is a good solution to already resolve domain names before a user actually follows a link. Here an example how to implement it in the HEAD section of your HTML:</p>
+<p>&lt;link rel=&#8221;dns-prefetch&#8221; href=&#8221;//www.example.com&#8221;&gt;</p>
+<p>The double slashes indicate that the URL begins with a host name (this is specified in the&nbsp;<a href="http://www.ietf.org/rfc/rfc1808.txt">RFC1808</a>).</p>
+<p><strong>Preconnect allows the browser to set up early connections</strong>&nbsp;before an HTTP request is actually sent to the server. Connections such as DNS Lookup, TCP Handshake, and TLS negotiation can be initiated beforehand, eliminating roundtrip latency for those connections and saving time for users.</p>
+<p>The example below shows what it looks like to enable preconnect for the Zone Alias link for KeyCDN.</p>
+<p>&lt;link href=&#8217;https://cdn.keycdn.com&/#8217; rel=&#8217;preconnect&#8217; crossorigin&gt;</p>
+<p>Read our in-depth article on&nbsp;<a href="https://www.keycdn.com/support/preconnect">preconnect</a>.</p>
+<p><strong>10.HTTP/2</strong></p>
+<p>Jeff Atwood, the co-founder of Stack Exchange and Discourse answered in our&nbsp;<a href="https://www.keycdn.com/blog/web-performance-advice">web perf questions</a>&nbsp;that the number one piece of advice he would give is “<strong>HTTP/2 adoption across the board &#8211; huge improvements for everyone.</strong>” We love Jeff’s answer as we definitely agree that HTTP/2 is the future and there are huge performance benefits.</p>
+<p>Go, the programming language, has a great example of when you are dealing with a lot more images on a page and how&nbsp;<a href="https://http2.golang.org/gophertiles">HTTP/2 far exceeds that of HTTP/1</a>.</p>
+<p>To enable HTTP/2 all that is required is an SSL certificate (it requires TLS) and a server that supports HTTP/2. You can use KeyCDN’s&nbsp;<a href="https://tools.keycdn.com/http2-test">HTTP/2 test tool</a>&nbsp;to see if you are supported. And KeyCDN now offer’s free SSL certificates with our&nbsp;<a href="https://www.keycdn.com/blog/free-ssl-certificates">Let’s Encrypt integration</a>. Haven’t migrated to HTTPS yet? We have also have an&nbsp;<a href="https://www.keycdn.com/blog/http-to-https">HTTP to HTTPS migration guide</a>.</p>
+<p><strong>11.PHP7 and HHVM</strong></p>
+<p>Keeping the various components of a web server up to date is critical for reasons such as security patches, performance upgrades, and so on. If you are using PHP, upgrading to PHP7 can help greatly improve performance as compared to PHP 5.6. As well as taking advantage of HHVM.</p>
+<p>Based on the results from the above image, PHP7 is able to handle 204 requests per seconds compared to PHP 5.6’s 96 in WordPress 3.6 Additionally, PHP7 is able to handle 183 more requests than PHP5.6 in WordPress 4.1.</p>
+<p>HHVM, an open source VM used by websites like Facebook also been shown to produce good results. When testing PHP 7 and HHVM Kinsta got slightly different results from Zend. From their conclusions&nbsp;<a href="https://kinsta.com/blog/the-definitive-php-7-final-version-hhvm-benchmark/">HHVM wins hands down</a>.</p>
+<p>A lot of these test results will vary due to environments, hardware, CMS platforms tested, versions, etc. But either way,&nbsp;<strong>both PHP7 and HHVM can be great ways to improve the performance of your website</strong>.</p>
+<p><strong>12.Web font performance</strong></p>
+<p>According to the&nbsp;<a href="http://httparchive.org/trends.php#perFonts">HTTP Archive</a>,&nbsp;<strong>60% of websites are now using custom fonts</strong>. Which is over an 850% increase since 2011. The disadvantages of web fonts, such as Google Fonts, are that they add extra HTTP requests to external resources. Web fonts are also render blocking. Below are some recommendations for better web font performance.</p>
+<ol>
+<li>Prioritize based on browser support</li>
+<li>Choose only the styles you need</li>
+<li>Keep character sets down to a minimum</li>
+<li>Host fonts locally or prefetch</li>
+<li>Store in LocalStorage with Base64 Encoding</li>
+</ol>
+<p>You can see an example of each method above in our post on analyzing&nbsp;<a href="https://www.keycdn.com/blog/web-font-performance">web font performance</a>. Georgia is a great system font that comes to mind that looks great and makes for easy readability.</p>
+<p>You can also&nbsp;<a href="https://www.keycdn.com/blog/google-fonts-cdn">move your Google Fonts to your CDN</a>. We ran our own comparison between using Google’s CDN and KeyCDN, and it was faster to use KeyCDN. Why? Because it reduces the number of HTTP requests, DNS lookups, lets you take advantage of a single HTTP/2 connection, and have more control over caching.</p>
+<table width="556">
+<thead>
+<tr>
+<td><strong>Speed test</strong></td>
+<td><strong>Google CDN (ms)</strong></td>
+<td><strong>KeyCDN (ms)</strong></td>
+<td><strong>Winner</strong></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>WebPageTest Load Time</td>
+<td>1871ms</td>
+<td>1815ms</td>
+<td>KeyCDN</td>
+</tr>
+<tr>
+<td>WebPageTest Fully Loaded</td>
+<td>1929ms</td>
+<td>1862ms</td>
+<td>KeyCDN</td>
+</tr>
+<tr>
+<td>Pingdom Load Time</td>
+<td>355ms</td>
+<td>324ms</td>
+<td>KeyCDN</td>
+</tr>
+</tbody>
+</table>
+<p><strong>13.Hotlink protection</strong></p>
+<p>Hotlink protection refers to restricting HTTP referrers in order to prevent others from embedding your assets on other websites. Hotlink protection will save you bandwidth by&nbsp;<strong>prohibiting other sites from displaying your images</strong>.</p>
+<p>Example: Your site URL is&nbsp;www.domain.com. To stop hotlinking of your images from other sites and display a replacement image called&nbsp;donotsteal.jpg&nbsp;from an image host, place this code in your&nbsp;.htaccess&nbsp;file:</p>
+<p>RewriteEngine On<br />
+RewriteCond %{HTTP_REFERER} !^http://(.+\.)/?domain\.com/ [NC]<br />
+RewriteCond %{HTTP_REFERER} !^$<br />
+RewriteRule .*\.(jpe?g|gif|bmp|png)$ http://i.imgur.com/donotsteal.gif [L]</p>
+<p>KeyCDN also has an easy way to enable hotlink protection to protect your CDN bandwidth. See our tutorial on how to&nbsp;<a href="https://www.keycdn.com/support/create-a-zone-referrer">create a Zone Referrer</a>.</p>
+<p><strong>14.Enable Gzip compression</strong></p>
+<p>Gzip is another form of compression which compresses web pages, CSS, and JavaScript at the server level before sending them over to the browser. This website performance optimization is easy to implement and can make a big difference.</p>
+<p><strong>Apache</strong></p>
+<p>You can enable compression by adding the following to your&nbsp;.htaccess&nbsp;file.</p>
+<p>&lt;IfModule mod_deflate.c&gt;</p>
+<p># Compress HTML, CSS, JavaScript, Text, XML and fonts<br />
+AddOutputFilterByType DEFLATE application/javascript<br />
+AddOutputFilterByType DEFLATE application/rss+xml<br />
+AddOutputFilterByType DEFLATE application/vnd.ms-fontobject<br />
+AddOutputFilterByType DEFLATE application/x-font<br />
+AddOutputFilterByType DEFLATE application/x-font-opentype<br />
+AddOutputFilterByType DEFLATE application/x-font-otf<br />
+AddOutputFilterByType DEFLATE application/x-font-truetype<br />
+AddOutputFilterByType DEFLATE application/x-font-ttf<br />
+AddOutputFilterByType DEFLATE application/x-javascript<br />
+AddOutputFilterByType DEFLATE application/xhtml+xml<br />
+AddOutputFilterByType DEFLATE application/xml<br />
+AddOutputFilterByType DEFLATE font/opentype<br />
+AddOutputFilterByType DEFLATE font/otf<br />
+AddOutputFilterByType DEFLATE font/ttf<br />
+AddOutputFilterByType DEFLATE image/svg+xml<br />
+AddOutputFilterByType DEFLATE image/x-icon<br />
+AddOutputFilterByType DEFLATE text/css<br />
+AddOutputFilterByType DEFLATE text/html<br />
+AddOutputFilterByType DEFLATE text/javascript<br />
+AddOutputFilterByType DEFLATE text/plain<br />
+AddOutputFilterByType DEFLATE text/xml</p>
+<p># Remove browser bugs (only needed for really old browsers)<br />
+BrowserMatch ^Mozilla/4 gzip-only-text/html<br />
+BrowserMatch ^Mozilla/4\.0[678] no-gzip<br />
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html<br />
+Header append Vary User-Agent<br />
+&lt;/IfModule&gt;</p>
+<p><strong>Nginx</strong></p>
+<p>You can enable compression by adding the following to your&nbsp;nginx.conf&nbsp;file.</p>
+<p>gzip on;&nbsp;gzip_comp_level 2;&nbsp;gzip_http_version 1.0;&nbsp;gzip_proxied any;&nbsp;gzip_min_length 1100;&nbsp;gzip_buffers 16 8k;&nbsp;gzip_types text/plain text/html text/css application/x-javascript text/xml application/xml application/xml+rss text/javascript;&nbsp;gzip_disable &#8220;MSIE [1-6].(?!.*SV1)&#8221;;&nbsp;gzip_vary on;</p>
+<p><strong>15.Infrastructure</strong></p>
+<p>Having a fast web host is equally as important as any website performance optimization you could make, as it is the backbone of your site. Stay away from cheap shared hosting. We suggest going with a VPS or if you are running WordPress or Drupal, a managed host, depending upon your level of expertise and time.</p>
+<p><strong>VPS</strong></p>
+<p><a href="https://m.do.co/c/eb1e6a3d8243">DigitalOcean</a>&nbsp;is a great cloud VPS provider and you can get started running your website for as little as $5/month. They feature SSDs, 1Gbps network, a dedicated IP address, and you can easily scale up or down in a matter of seconds.</p>
+<p><a href="https://www.linode.com/?r=550fde4fe78abb8e7a4c1ba2c7180832bb627800">Linode</a>&nbsp;is also another good choice if you are looking for a cloud VPS. They have plans starting at $10/month and all feature SSDs, API, CLI, and easy scaling across 8 datacenters in 3 different regions.</p>
+<p><a href="http://www.vultr.com/?ref=6826566">Vultr</a>&nbsp;is slightly newer to the VPS game, but they provide very fast and stable servers throughout their 14 different locations. A newer feature they now offer is DDoS mitigation service.</p>
+<p><strong>Managed hosting</strong></p>
+<p>For those less tech savvy a managed host might be a better solution. Yes, you will pay more, but depending on the size of your business and how important your time is, the price sometimes outweighs the cost.</p>
+<p>Here are some popular managed WordPress hosts that focus on high performance:</p>
+<ul>
+<li><a href="https://kinsta.com/">Kinsta</a></li>
+<li><a href="https://pagely.com/">Pagely</a></li>
+<li><a href="https://raidboxes.de/">Raidboxes</a>&nbsp;(German)</li>
+<li><a href="https://www.mittwald.de/wordpress-hosting">Mittwald</a>&nbsp;(German)</li>
+</ul>
+<p>Here are some popular managed Drupal hosts:</p>
+<ul>
+<li><a href="https://pantheon.io/features/drupal-hosting">Pantheon</a></li>
+<li><a href="https://www.rochen.com/drupal-hosting/">Rochen</a></li>
+</ul>
+<p><strong>16.Fix 404 errors</strong></p>
+<p>Any missing file generates a 404 HTTP error. Depending upon the platform you are running 404 errors can be quite taxing on your server. For example,&nbsp;<strong>Drupal has very expensive 404 errors</strong>. On an ‘average’ site with an ‘average’ module load, you can be looking at 60-100MB of memory being consumed on your server to deliver a 404.</p>
+<p>We don’t recommend installing plugins or modules to check for 404s, instead we advise you occasionally run your website through an external service such as the “<a href="http://www.brokenlinkcheck.com/">Online Broken Link Checker</a>” or a tool like&nbsp;<a href="http://www.screamingfrog.co.uk/seo-spider/">Screaming Frog</a>. This ensures that you aren’t wasting any of your server’s resources on this task. You can also see these in Google Search Console.</p>
+<p><strong>17.Serve scaled images</strong></p>
+<p>You should always upload your images at scale and not rely on CSS to size them down. If you do you will run into this little Google PageSpeed recommendation:&nbsp;<em>Optimization suggestion: “By compressing and adjusting the size of … you can save 5.8 KB (51%).</em></p>
+<p>This recommendation refers to your images being scaled down by your browser. For example, maybe the image you upload has a 400px width, but the column it was placed in is only 300px wide. This results in your image being scaled down to 300px due to CSS so that it matches the column size. It is better to always upload images at scale and also upload multiple resolutions of your images and serve the right resolution for the right device.</p>
+<p>Note: It is not always possible to avoid scaling with CSS, especially if you are working with high resolution retina devices.</p>
+<p><strong>18.Database optimization</strong></p>
+<p>And last but not least is database optimization. Whether it is cleaning out old unused tables or creating indexes for faster access there are always things that can be optimized.</p>
+<p><strong>MySQL tuning</strong></p>
+<p>Optimizing MySQL is also very important. Unfortunately this is very specific to your environment and your setup so we can’t provide recommended configurations. The MySQL/MariaDB configuration file is normally located in&nbsp;/etc/my.cnf. Here are a few settings though to keep an eye on.</p>
+<ul>
+<li>tmp_table_size</li>
+<li>query_cache_type</li>
+<li>query_cache_size</li>
+<li>query_cache_size</li>
+<li>join_buffer_size</li>
+<li>max_heap_table_size</li>
+</ul>
+<p>A highly recommended tool is the&nbsp;<a href="http://mysqltuner.com/">MySQL Tuner</a>&nbsp;script. It is read-only and won’t make configuration changes. It will give you an overview of your server’s performance and make some basic recommendations about improvements that you can make after it completes. Here are a couple other tools you can use as well:</p>
+<ul>
+<li><a href="https://launchpad.net/mysql-tuning-primer">MySQL tuning primer script</a></li>
+<li><a href="https://www.phpmyadmin.net/">phpMyAdmin</a></li>
+<li>See our&nbsp;<a href="https://www.keycdn.com/blog/speed-up-wordpress#4-optimize-wordpress-database">WordPress database optimizations</a></li>
+<li>See our&nbsp;<a href="https://www.keycdn.com/blog/speed-up-joomla#7-clean-up-joomla-db">Joomla database optimizations</a></li>
+<li>See our&nbsp;<a href="https://www.keycdn.com/blog/speed-up-magento#8-clean-up-magento-database-logs">Magento database optimizations</a></li>
+</ul>
+<p><strong>Summary</strong></p>
+<p>As you can see there are hundreds of different website performance optimization tweaks you can implement to further improve on the delivery and speed of your content. From image optimization, to implementing a CDN, to browser and server caching, taking advantage of HTTP/2, Gzip, PHP7, HHVM, and much more!</p>
+<p>Are there some website performance optimization tips that we left out? If so feel free to let us know below.</p>
+<p><a href="https://www.keycdn.com/blog/website-performance-optimization">Source</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Steve Jobs</title>
+		<link>https://abdurochmansidik.my.id/steve-jobs/</link>
+		
+		<dc:creator><![CDATA[Abdurochman Sidik]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2020 23:00:54 +0000</pubDate>
+				<category><![CDATA[Tak Berkategori]]></category>
+		<guid isPermaLink="false">http://themes.pixelwars.org/cvcard-wp/?p=77</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<blockquote><p>Design is not just what it looks like and feels like. Design is how it works.<cite>Steve Jobs</cite></p></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>An Image Gallery</title>
+		<link>https://abdurochmansidik.my.id/an-image-gallery/</link>
+		
+		<dc:creator><![CDATA[Abdurochman Sidik]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2020 23:00:44 +0000</pubDate>
+				<category><![CDATA[Tak Berkategori]]></category>
+		<guid isPermaLink="false">http://themes.pixelwars.org/cvcard-wp/?p=65</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<div class="flexslider" data-autoplay="true" data-interval="3000" data-animation="slide" data-direction="horizontal" data-animationSpeed="600"  data-pauseOnHover="true">
+<ul class="slides">
+<li><img decoding="async" alt="A beautiful illustration by Icons8" src="https://res.cloudinary.com/codingers-enegx/image/upload/v1700277435/wordpress/abdurochmansidik/blog/featured-image/an-image-gallery-1.png">
+<p class="flex-title">A beautiful illustration by Icons8</p>
+</li>
+<li><img decoding="async" alt="" src="https://res.cloudinary.com/codingers-enegx/image/upload/v1700277462/wordpress/abdurochmansidik/blog/featured-image/an-image-gallery-2.png"></li>
+<li><img decoding="async" alt="" src="https://res.cloudinary.com/codingers-enegx/image/upload/v1700277468/wordpress/abdurochmansidik/blog/featured-image/an-image-gallery-3.png"></li>
+</ul>
+</div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Book / Bring Ideas To Life</title>
+		<link>https://abdurochmansidik.my.id/book-bring-ideas-to-life/</link>
+		
+		<dc:creator><![CDATA[Abdurochman Sidik]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2020 23:00:36 +0000</pubDate>
+				<category><![CDATA[Tak Berkategori]]></category>
+		<guid isPermaLink="false">http://themes.pixelwars.org/cvcard-wp/?p=81</guid>
+
+					<description><![CDATA[Paper is where ideas begin. It’s the easiest and most beautiful way to create on the new iPad. Capture your ideas as sketches, diagrams, illustrations, notes or drawings and instantly share them across the web. Download “Paper by FiftyThree” from the App Store.]]></description>
+										<content:encoded><![CDATA[<div class="media-wrap"><iframe width="853" height="480" src="https://res.cloudinary.com/codingers-enegx/video/upload/v1700265174/wordpress/abdurochmansidik/portfolio/my-video-project/video-project-sipodes.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Paper is where ideas begin. It’s the easiest and most beautiful way to create on the new iPad. Capture your ideas as sketches, diagrams, illustrations, notes or drawings and instantly share them across the web. Download “Paper by FiftyThree” from the App Store.</p>
+]]></content:encoded>
+					
+		
+		<enclosure url="https://res.cloudinary.com/codingers-enegx/video/upload/v1700265174/wordpress/abdurochmansidik/portfolio/my-video-project/video-project-sipodes.mp4" length="1058936" type="video/mp4" />
+
+			</item>
+		<item>
+		<title>Responsive web design</title>
+		<link>https://abdurochmansidik.my.id/responsive-web-design/</link>
+		
+		<dc:creator><![CDATA[Abdurochman Sidik]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2020 23:00:32 +0000</pubDate>
+				<category><![CDATA[Tak Berkategori]]></category>
+		<guid isPermaLink="false">http://themes.pixelwars.org/cvcard-wp/?p=74</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<div class="aside-content">
+<p>Responsive web design offers us a way forward, finally allowing us to design for the ebb and flow of things.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.</p>
+</div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Post Format Audio Soundcloud Embed</title>
+		<link>https://abdurochmansidik.my.id/post-format-audio-soundcloud-embed/</link>
+		
+		<dc:creator><![CDATA[Abdurochman Sidik]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2020 23:00:29 +0000</pubDate>
+				<category><![CDATA[Tak Berkategori]]></category>
+		<guid isPermaLink="false">http://themes.pixelwars.org/cvcard-wp/?p=79</guid>
+
+					<description><![CDATA[To get an embed code for your track or playlist, click the &#8216;Share&#8217; button below the waveform and an overlay will appear. Click on the embed tab to view what options you have to embed your player. Copy-paste the embed code from &#8216;Code &#38; preview&#8217;. Next, copy the code and paste it into the HTML... <a class="more-link" href="https://abdurochmansidik.my.id/post-format-audio-soundcloud-embed/">Continue reading <span class="meta-nav">→</span></a>]]></description>
+										<content:encoded><![CDATA[<div class="media-wrap"><iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/129829419&amp;color=009966&amp;auto_play=false&amp;show_artwork=true" width="320" height="166"></iframe></div>
+<p>To get an embed code for your track or playlist, click the &#8216;Share&#8217; button below the waveform and an overlay will appear. Click on the embed tab to view what options you have to embed your player.</p>
+<p>Copy-paste the embed code from &#8216;Code &amp; preview&#8217;. Next, copy the code and paste it into the HTML editor section of your site’s editor. From there a player will form and you can check how many&nbsp;<a href="http://statsandengagement.help.soundcloud.com/customer/portal/articles/2167014-websites-and-apps-in-your-stats">plays you get from your website or blog</a>&nbsp;through your Stats page if you are a&nbsp;<a href="http://soundcloud.com/pro">Pro or Pro Unlimited member</a>.</p>
+<p><strong><em>Note:</em></strong><em>&nbsp;You no longer need a specific&nbsp;Wordpress code to embed your player on a WordPress site. For more information, please read&nbsp;</em><a href="https://help.soundcloud.com/hc/en-us/articles/115003565128"><em>here</em></a><em>.</em></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Post Format : Status</title>
+		<link>https://abdurochmansidik.my.id/post-format-status/</link>
+		
+		<dc:creator><![CDATA[Abdurochman Sidik]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2020 23:00:22 +0000</pubDate>
+				<category><![CDATA[Tak Berkategori]]></category>
+		<guid isPermaLink="false">http://themes.pixelwars.org/cvcard-wp/?p=88</guid>
+
+					<description><![CDATA[I am having good time with my friends at Starbucks, classic!]]></description>
+										<content:encoded><![CDATA[<p>I am having good time with my friends at Starbucks, classic!</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Post Format : Chat</title>
+		<link>https://abdurochmansidik.my.id/post-format-chat/</link>
+		
+		<dc:creator><![CDATA[Abdurochman Sidik]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2020 23:00:12 +0000</pubDate>
+				<category><![CDATA[Tak Berkategori]]></category>
+		<guid isPermaLink="false">http://themes.pixelwars.org/cvcard-wp/?p=85</guid>
+
+					<description><![CDATA[JOHN: Hey there MARY: This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. JOHN: What is this SMITH: Aye, matey! JOE: Huh?]]></description>
+										<content:encoded><![CDATA[
+			<div id="chat-transcript-85" class="chat-transcript">
+				<div class="chat-row chat-speaker-1">
+					<div class="chat-author chat-author-john vcard"><cite class="fn">JOHN</cite>:</div>
+					<div class="chat-text"><p>Hey there</p></div>
+				</div><!-- .chat-row -->
+				<div class="chat-row chat-speaker-2">
+					<div class="chat-author chat-author-mary vcard"><cite class="fn">MARY</cite>:</div>
+					<div class="chat-text"><p>This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from.</p></div>
+				</div><!-- .chat-row -->
+				<div class="chat-row chat-speaker-1">
+					<div class="chat-author chat-author-john vcard"><cite class="fn">JOHN</cite>:</div>
+					<div class="chat-text"><p>What is this</p></div>
+				</div><!-- .chat-row -->
+				<div class="chat-row chat-speaker-3">
+					<div class="chat-author chat-author-smith vcard"><cite class="fn">SMITH</cite>:</div>
+					<div class="chat-text"><p>Aye, matey!</p></div>
+				</div><!-- .chat-row -->
+				<div class="chat-row chat-speaker-4">
+					<div class="chat-author chat-author-joe vcard"><cite class="fn">JOE</cite>:</div>
+					<div class="chat-text"><p>Huh?</p></div>
+				</div><!-- .chat-row -->
+			</div><!-- .chat-transcript -->
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
