@@ -221,7 +221,7 @@ select {
  	min-width: 262px
 	}
 textarea {
- 	width: 50%; min-width: 262px; min-height: 11em;
+ 	width: 100%; min-width: 262px; min-height: 11em;
 	}
 .inline-label {
  	display: inline-block; margin-right: 2em; font-weight: 400; color: #6A7686; letter-spacing: 0;
@@ -309,13 +309,13 @@ div.uploader {
 		}
 /* contact form 7 compatibility  */
 .wpcf7 {
- 	padding: 0
+ 	padding: 0;
 	}
 	.wpcf7 input[type=submit] {
  	margin-top: 1.4em
 		}
 	.wpcf7 label {
- 	display: inline-block; margin-right: 2em;
+ 	display: inline-block; margin-right: 2em; width: 100%;
 		}
 	.wpcf7 div.checker,
 	.wpcf7 div.radio {

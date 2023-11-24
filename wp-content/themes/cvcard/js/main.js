@@ -173,25 +173,27 @@ var $container, $blog_container;
 		// ------------------------------
 		// PORTFOLIO DETAILS
 		// Show details
-		$(document).on('click', '.one-page-layout a.ajax', function() {
+		$(".one-page-layout a.ajax").live('click',function() {
+		  
 			var returnVal;
 			var url = $(this).attr('href');
 			var baseUrl = $.address.baseURL();
-
-			if (url.indexOf(baseUrl) != -1) { // full url
+		  
+			if(url.indexOf(baseUrl) != -1) { // full url
 				var total = url.length;
-				var detailUrl = url.slice(baseUrl.length + 1, total);
-				$.address.path('/' + detailUrl);
+				detailUrl = url.slice(baseUrl.length+1, total);	
+				$.address.path('/' + detailUrl );
 			} else { // relative url
-				var detailUrl = url;
-				$.address.path(portfolioKeyword + '/' + detailUrl);
+				detailUrl = url;
+				$.address.path(portfolioKeyword + '/' + detailUrl );
 			}
-
+		  
 			return false;
+		  
 		});
 		// ------------------------------
 		// *** wp fix end
-
+		
 		
 		
 		// ------------------------------
