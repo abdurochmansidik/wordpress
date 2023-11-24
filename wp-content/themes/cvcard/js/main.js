@@ -169,30 +169,29 @@ var $container, $blog_container;
 		
 		
 		
-// *** wp fix start
-// ------------------------------
-// PORTFOLIO DETAILS
-// Show details
-$(document).on('click', '.one-page-layout a.ajax', function() {
-    var returnVal;
-    var url = $(this).attr('href');
-    var baseUrl = $.address.baseURL();
+		// *** wp fix start
+		// ------------------------------
+		// PORTFOLIO DETAILS
+		// Show details
+		$(document).on('click', '.one-page-layout a.ajax', function() {
+			var returnVal;
+			var url = $(this).attr('href');
+			var baseUrl = $.address.baseURL();
 
-    if (url.indexOf(baseUrl) != -1) { // full url
-        var total = url.length;
-        var detailUrl = url.slice(baseUrl.length + 1, total);
-        $.address.path('/' + detailUrl);
-    } else { // relative url
-        var detailUrl = url;
-        $.address.path(portfolioKeyword + '/' + detailUrl);
-    }
+			if (url.indexOf(baseUrl) != -1) { // full url
+				var total = url.length;
+				var detailUrl = url.slice(baseUrl.length + 1, total);
+				$.address.path('/' + detailUrl);
+			} else { // relative url
+				var detailUrl = url;
+				$.address.path(portfolioKeyword + '/' + detailUrl);
+			}
 
-    return false;
-});
-// ------------------------------
-// *** wp fix end
+			return false;
+		});
+		// ------------------------------
+		// *** wp fix end
 
-		
 		
 		
 		// ------------------------------
