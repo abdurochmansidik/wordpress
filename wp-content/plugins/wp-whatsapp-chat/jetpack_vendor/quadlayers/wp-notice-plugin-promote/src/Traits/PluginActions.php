@@ -1,0 +1,2 @@
+<br>
+<b>Fatal error</b>:  Trait &quot;QuadLayers\WP_Notice_Plugin_Promote\Traits\PluginActionsLinks&quot; not found in <b>D:\xampp\htdocs\wordpress\wp-content\plugins\wp-whatsapp-chat\jetpack_vendor\quadlayers\wp-notice-plugin-promote\src\Traits\PluginActions.php</b> on line <b>20</b><br>
