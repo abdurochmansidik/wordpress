@@ -188,7 +188,7 @@
         current--;
         if (current == 0) {
             initial = 0;
-            NProgress.done();
+            NProgress.done(true);
         } else {
             NProgress.set((initial - current) / initial);
         }
