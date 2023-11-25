@@ -23,7 +23,7 @@
     easing: 'ease',
     positionUsing: '',
     speed: 200,
-    trickle: true,
+    trickle: false,
     trickleRate: 0.02,
     trickleSpeed: 800,
     showSpinner: false,
@@ -188,7 +188,7 @@
         current--;
         if (current == 0) {
             initial = 0;
-            NProgress.done(true);
+            NProgress.done();
         } else {
             NProgress.set((initial - current) / initial);
         }
