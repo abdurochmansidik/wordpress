@@ -23,7 +23,7 @@
     easing: 'ease',
     positionUsing: '',
     speed: 200,
-    trickle: false,
+    trickle: true,
     trickleRate: 0.02,
     trickleSpeed: 800,
     showSpinner: false,
@@ -232,7 +232,7 @@
 
   NProgress.remove = function() {
     $('html').removeClass('nprogress-busy');
-    $('#nprogress').remove();
+    $('#nprogress').remove(true);
   };
 
   /**
