@@ -22,7 +22,7 @@
     minimum: 0.08,
     easing: 'ease',
     positionUsing: '',
-    speed: 200,
+    speed: 500,
     trickle: true,
     trickleRate: 0.02,
     trickleSpeed: 800,
