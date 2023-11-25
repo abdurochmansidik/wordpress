@@ -23,10 +23,10 @@
     easing: 'ease',
     positionUsing: '',
     speed: 200,
-    trickle: false,
+    trickle: true,
     trickleRate: 0.02,
     trickleSpeed: 800,
-    showSpinner: true,
+    showSpinner: false,
     template: '<div class="bar" role="bar"><div class="peg"></div></div><div class="spinner" role="spinner"><div class="spinner-icon"></div></div>'
   };
 
