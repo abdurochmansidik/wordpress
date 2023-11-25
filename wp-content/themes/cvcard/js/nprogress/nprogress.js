@@ -232,7 +232,7 @@
 
   NProgress.remove = function() {
     $('html').removeClass('nprogress-busy');
-    $('#nprogress').remove(true);
+    $('#nprogress').remove();
   };
 
   /**
