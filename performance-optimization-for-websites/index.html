@@ -1,720 +1,2510 @@
 <!DOCTYPE html>
-<html lang="en-US" class="no-js single-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="false" data-inanimation="" data-outanimation="">
+<html
+  lang="en-US"
+  class="no-js single-page-layout"
+  data-classic-layout="false"
+  data-mobile-only-classic-layout="false"
+  data-inanimation=""
+  data-outanimation=""
+>
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-	<meta charset="UTF-8">
-	
-	
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
-				
-	<title>Performance Optimization for Websites | Abdurochman Sidik</title>
-	
-	<!--[if lte IE 9]>
-		<script src="https://localhost/wordpress/wp-content/themes/cvcard/js/html5shiv.js"></script>
-		<script src="https://localhost/wordpress/wp-content/themes/cvcard/js/respond.min.js"></script>
-		<script src="https://localhost/wordpress/wp-content/themes/cvcard/js/selectivizr-min.js"></script>
-	<![endif]-->
-	
-		
-	<meta name="robots" content="max-image-preview:large">
-<link rel="dns-prefetch" href="//maps.googleapis.com">
-<link rel="dns-prefetch" href="//fonts.googleapis.com">
-<link rel="alternate" type="application/rss+xml" title="Abdurochman Sidik &raquo; Feed" href="https://abdurochmansidik.my.id/feed/">
-<link rel="alternate" type="application/rss+xml" title="Abdurochman Sidik &raquo; Comments Feed" href="https://abdurochmansidik.my.id/comments/feed/">
-<link rel="alternate" type="application/rss+xml" title="Abdurochman Sidik &raquo; Performance Optimization for Websites Comments Feed" href="https://abdurochmansidik.my.id/performance-optimization-for-websites/feed/">
-<script type="text/javascript">
-/* <![CDATA[ */
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/abdurochmansidik.my.id\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1"}};
-/*! This file is auto-generated */
-!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🫱🏻‍🫲🏿","🫱🏻​🫲🏿")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
-/* ]]> */
-</script>
-<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
-		display: inline !important;
-		border: none !important;
-		box-shadow: none !important;
-		height: 1em !important;
-		width: 1em !important;
-		margin: 0 0.07em !important;
-		vertical-align: -0.1em !important;
-		background: none !important;
-		padding: 0 !important;
-	}</style>
-<link rel="stylesheet" id="wp-block-library-css" href="https://abdurochmansidik.my.id/wp-includes/css/dist/block-library/style.min.css?ver=6.4.1" type="text/css" media="all">
-<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
-.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
-<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
-:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
-:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
-.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
-<link rel="stylesheet" id="ctf_styles-css" href="https://abdurochmansidik.my.id/wp-content/plugins/custom-twitter-feeds/css/ctf-styles.min.css?ver=2.2.1" type="text/css" media="all">
-<link rel="stylesheet" id="lato-css" href="//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" type="text/css" media="all">
-<link rel="stylesheet" id="tangerine-css" href="//fonts.googleapis.com/css?family=Tangerine:400,700" type="text/css" media="all">
-<link rel="stylesheet" id="oswald-css" href="//fonts.googleapis.com/css?family=Oswald" type="text/css" media="all">
-<link rel="stylesheet" id="print-css" href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/print.css" type="text/css" media="print">
-<link rel="stylesheet" id="normalize-css" href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/normalize.css" type="text/css" media="all">
-<link rel="stylesheet" id="bootstrap-css" href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/bootstrap.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="nprogress-css" href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/nprogress/nprogress.css" type="text/css" media="all">
-<link rel="stylesheet" id="animate-css" href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/animate.css" type="text/css" media="all">
-<link rel="stylesheet" id="font-awesome-css" href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/fonts/font-awesome/css/font-awesome.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="fontello-css" href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/fonts/fontello/css/fontello.css" type="text/css" media="all">
-<link rel="stylesheet" id="fancybox-css" href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/jquery.fancybox-1.3.4.css" type="text/css" media="all">
-<link rel="stylesheet" id="prettify-css" href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/google-code-prettify/prettify.css" type="text/css" media="all">
-<link rel="stylesheet" id="uniform-css" href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/uniform.default.css" type="text/css" media="all">
-<link rel="stylesheet" id="flexslider-css" href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/flexslider.css" type="text/css" media="all">
-<link rel="stylesheet" id="mediaelementplayer-css" href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/mediaelement/mediaelementplayer.css" type="text/css" media="all">
-<link rel="stylesheet" id="tooltipster-css" href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/tooltipster.css" type="text/css" media="all">
-<link rel="stylesheet" id="main-css" href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/main.css" type="text/css" media="all">
-<link rel="stylesheet" id="wp-fix-css" href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/wp-fix.css" type="text/css" media="all">
-<link rel="stylesheet" id="qlwapp-css" href="https://abdurochmansidik.my.id/wp-content/plugins/wp-whatsapp-chat/build/frontend/css/style.css?ver=7.1.9" type="text/css" media="all">
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/modernizr.custom.js" id="modernizr-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
-<link rel="https://api.w.org/" href="https://abdurochmansidik.my.id/wp-json/">
-<link rel="alternate" type="application/json" href="https://abdurochmansidik.my.id/wp-json/wp/v2/posts/20">
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://abdurochmansidik.my.id/xmlrpc.php?rsd">
-<meta name="generator" content="WordPress 6.4.1">
-<link rel="canonical" href="https://abdurochmansidik.my.id/performance-optimization-for-websites/">
-<link rel="shortlink" href="https://abdurochmansidik.my.id/?p=20">
-<link rel="alternate" type="application/json+oembed" href="https://abdurochmansidik.my.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fabdurochmansidik.my.id%2Fperformance-optimization-for-websites%2F">
-<link rel="alternate" type="text/xml+oembed" href="https://abdurochmansidik.my.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fabdurochmansidik.my.id%2Fperformance-optimization-for-websites%2F#038;format=xml">
-<!-- FIFU: meta tags for featured image (begin) -->
-<meta property="og:image" content="https://res.cloudinary.com/codingers-enegx/image/upload/v1700277526/wordpress/abdurochmansidik/blog/featured-image/performance-optimization-for-websites.png">
-<!-- FIFU: meta tags for featured image (end) --><meta property="og:title" content="Performance Optimization for Websites">
-<meta property="og:description" content="Website performance optimization is always something that should be top priority, especially when there is so much online competition. We have written a lot of performance tutorials over the past couple months, such as how to speed up WordPress, Joomla, Drupal, and more. But what if you aren’t on any of those platforms? Below are the top 18 optimization tips we recommend, regardless of the platform, if you are looking to optimize your site.">
+    <title>Performance Optimization for Websites | Abdurochman Sidik</title>
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Performance Optimization for Websites">
-<meta name="twitter:description" content="Website performance optimization is always something that should be top priority, especially when there is so much online competition. We have written a lot of performance tutorials over the past couple months, such as how to speed up WordPress, Joomla, Drupal, and more. But what if you aren’t on any of those platforms? Below are the top 18 optimization tips we recommend, regardless of the platform, if you are looking to optimize your site.">
-<meta name="twitter:image" content="https://res.cloudinary.com/codingers-enegx/image/upload/v1700277526/wordpress/abdurochmansidik/blog/featured-image/performance-optimization-for-websites.png">
-<link rel="stylesheet" type="text/css" href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/style.css">
+    <meta name="robots" content="max-image-preview:large" />
+    <link rel="dns-prefetch" href="//maps.googleapis.com" />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Abdurochman Sidik &raquo; Feed"
+      href="https://abdurochmansidik.my.id/feed/"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Abdurochman Sidik &raquo; Comments Feed"
+      href="https://abdurochmansidik.my.id/comments/feed/"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Abdurochman Sidik &raquo; Performance Optimization for Websites Comments Feed"
+      href="https://abdurochmansidik.my.id/performance-optimization-for-websites/feed/"
+    />
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      window._wpemojiSettings = {
+        baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
+        ext: ".png",
+        svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
+        svgExt: ".svg",
+        source: {
+          concatemoji:
+            "https:\/\/abdurochmansidik.my.id\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1",
+        },
+      };
+      /*! This file is auto-generated */
+      !(function (i, n) {
+        var o, s, e;
+        function c(e) {
+          try {
+            var t = { supportTests: e, timestamp: new Date().valueOf() };
+            sessionStorage.setItem(o, JSON.stringify(t));
+          } catch (e) {}
+        }
+        function p(e, t, n) {
+          e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+            e.fillText(t, 0, 0);
+          var t = new Uint32Array(
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+            ),
+            r =
+              (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+              e.fillText(n, 0, 0),
+              new Uint32Array(
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              ));
+          return t.every(function (e, t) {
+            return e === r[t];
+          });
+        }
+        function u(e, t, n) {
+          switch (t) {
+            case "flag":
+              return n(e, "🏳️‍⚧️", "🏳️​⚧️")
+                ? !1
+                : !n(e, "🇺🇳", "🇺​🇳") && !n(e, "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");
+            case "emoji":
+              return !n(e, "🫱🏻‍🫲🏿", "🫱🏻​🫲🏿");
+          }
+          return !1;
+        }
+        function f(e, t, n) {
+          var r =
+              "undefined" != typeof WorkerGlobalScope &&
+              self instanceof WorkerGlobalScope
+                ? new OffscreenCanvas(300, 150)
+                : i.createElement("canvas"),
+            a = r.getContext("2d", { willReadFrequently: !0 }),
+            o = ((a.textBaseline = "top"), (a.font = "600 32px Arial"), {});
+          return (
+            e.forEach(function (e) {
+              o[e] = t(a, e, n);
+            }),
+            o
+          );
+        }
+        function t(e) {
+          var t = i.createElement("script");
+          (t.src = e), (t.defer = !0), i.head.appendChild(t);
+        }
+        "undefined" != typeof Promise &&
+          ((o = "wpEmojiSettingsSupports"),
+          (s = ["flag", "emoji"]),
+          (n.supports = { everything: !0, everythingExceptFlag: !0 }),
+          (e = new Promise(function (e) {
+            i.addEventListener("DOMContentLoaded", e, { once: !0 });
+          })),
+          new Promise(function (t) {
+            var n = (function () {
+              try {
+                var e = JSON.parse(sessionStorage.getItem(o));
+                if (
+                  "object" == typeof e &&
+                  "number" == typeof e.timestamp &&
+                  new Date().valueOf() < e.timestamp + 604800 &&
+                  "object" == typeof e.supportTests
+                )
+                  return e.supportTests;
+              } catch (e) {}
+              return null;
+            })();
+            if (!n) {
+              if (
+                "undefined" != typeof Worker &&
+                "undefined" != typeof OffscreenCanvas &&
+                "undefined" != typeof URL &&
+                URL.createObjectURL &&
+                "undefined" != typeof Blob
+              )
+                try {
+                  var e =
+                      "postMessage(" +
+                      f.toString() +
+                      "(" +
+                      [JSON.stringify(s), u.toString(), p.toString()].join(
+                        ","
+                      ) +
+                      "));",
+                    r = new Blob([e], { type: "text/javascript" }),
+                    a = new Worker(URL.createObjectURL(r), {
+                      name: "wpTestEmojiSupports",
+                    });
+                  return void (a.onmessage = function (e) {
+                    c((n = e.data)), a.terminate(), t(n);
+                  });
+                } catch (e) {}
+              c((n = f(s, u, p)));
+            }
+            t(n);
+          })
+            .then(function (e) {
+              for (var t in e)
+                (n.supports[t] = e[t]),
+                  (n.supports.everything =
+                    n.supports.everything && n.supports[t]),
+                  "flag" !== t &&
+                    (n.supports.everythingExceptFlag =
+                      n.supports.everythingExceptFlag && n.supports[t]);
+              (n.supports.everythingExceptFlag =
+                n.supports.everythingExceptFlag && !n.supports.flag),
+                (n.DOMReady = !1),
+                (n.readyCallback = function () {
+                  n.DOMReady = !0;
+                });
+            })
+            .then(function () {
+              return e;
+            })
+            .then(function () {
+              var e;
+              n.supports.everything ||
+                (n.readyCallback(),
+                (e = n.source || {}).concatemoji
+                  ? t(e.concatemoji)
+                  : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
+            }));
+      })((window, document), window._wpemojiSettings);
+      /* ]]> */
+    </script>
+    <style id="wp-emoji-styles-inline-css" type="text/css">
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="wp-block-library-css"
+      href="https://abdurochmansidik.my.id/wp-includes/css/dist/block-library/style.min.css?ver=6.4.1"
+      type="text/css"
+      media="all"
+    />
+    <style id="classic-theme-styles-inline-css" type="text/css">
+      /*! This file is auto-generated */
+      .wp-block-button__link {
+        color: #fff;
+        background-color: #32373c;
+        border-radius: 9999px;
+        box-shadow: none;
+        text-decoration: none;
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        font-size: 1.125em;
+      }
+      .wp-block-file__button {
+        background: #32373c;
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+    <style id="global-styles-inline-css" type="text/css">
+      body {
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgba(6, 147, 227, 1) 0%,
+          rgb(155, 81, 224) 100%
+        );
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgba(252, 185, 0, 1) 0%,
+          rgba(255, 105, 0, 1) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgba(255, 105, 0, 1) 0%,
+          rgb(207, 46, 46) 100%
+        );
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+        );
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+        );
+        --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+        );
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+        );
+        --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+        );
+        --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+        );
+        --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+        );
+        --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+        );
+        --wp--preset--font-size--small: 13px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 36px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
+          6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+      }
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+      :where(.is-layout-grid) {
+        gap: 0.5em;
+      }
+      body .is-layout-flow > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+      body .is-layout-flow > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+      body .is-layout-flow > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      body .is-layout-constrained > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+      body .is-layout-constrained > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+      body .is-layout-constrained > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      body
+        .is-layout-constrained
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: var(--wp--style--global--content-size);
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      body .is-layout-constrained > .alignwide {
+        max-width: var(--wp--style--global--wide-size);
+      }
+      body .is-layout-flex {
+        display: flex;
+      }
+      body .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      body .is-layout-flex > * {
+        margin: 0;
+      }
+      body .is-layout-grid {
+        display: grid;
+      }
+      body .is-layout-grid > * {
+        margin: 0;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+      .wp-block-navigation a:where(:not(.wp-element-button)) {
+        color: inherit;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      .wp-block-pullquote {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="ctf_styles-css"
+      href="https://abdurochmansidik.my.id/wp-content/plugins/custom-twitter-feeds/css/ctf-styles.min.css?ver=2.2.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="lato-css"
+      href="//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="tangerine-css"
+      href="//fonts.googleapis.com/css?family=Tangerine:400,700"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="oswald-css"
+      href="//fonts.googleapis.com/css?family=Oswald"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="print-css"
+      href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/print.css"
+      type="text/css"
+      media="print"
+    />
+    <link
+      rel="stylesheet"
+      id="normalize-css"
+      href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/normalize.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="bootstrap-css"
+      href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/bootstrap.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nprogress-css"
+      href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/nprogress/nprogress.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="animate-css"
+      href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/animate.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="font-awesome-css"
+      href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/fonts/font-awesome/css/font-awesome.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="fontello-css"
+      href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/fonts/fontello/css/fontello.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="fancybox-css"
+      href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/jquery.fancybox-1.3.4.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="prettify-css"
+      href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/google-code-prettify/prettify.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="uniform-css"
+      href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/uniform.default.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="flexslider-css"
+      href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/flexslider.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="mediaelementplayer-css"
+      href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/mediaelement/mediaelementplayer.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="tooltipster-css"
+      href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/tooltipster.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="main-css"
+      href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/main.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="wp-fix-css"
+      href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/wp-fix.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="qlwapp-css"
+      href="https://abdurochmansidik.my.id/wp-content/plugins/wp-whatsapp-chat/build/frontend/css/style.css?ver=7.1.9"
+      type="text/css"
+      media="all"
+    />
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/modernizr.custom.js"
+      id="modernizr-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      id="jquery-core-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      id="jquery-migrate-js"
+    ></script>
+    <link
+      rel="https://api.w.org/"
+      href="https://abdurochmansidik.my.id/wp-json/"
+    />
+    <link
+      rel="alternate"
+      type="application/json"
+      href="https://abdurochmansidik.my.id/wp-json/wp/v2/posts/20"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="https://abdurochmansidik.my.id/xmlrpc.php?rsd"
+    />
+    <meta name="generator" content="WordPress 6.4.1" />
+    <link
+      rel="canonical"
+      href="https://abdurochmansidik.my.id/performance-optimization-for-websites/"
+    />
+    <link rel="shortlink" href="https://abdurochmansidik.my.id/?p=20" />
+    <link
+      rel="alternate"
+      type="application/json+oembed"
+      href="https://abdurochmansidik.my.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fabdurochmansidik.my.id%2Fperformance-optimization-for-websites%2F"
+    />
+    <link
+      rel="alternate"
+      type="text/xml+oembed"
+      href="https://abdurochmansidik.my.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fabdurochmansidik.my.id%2Fperformance-optimization-for-websites%2F#038;format=xml"
+    />
+    <!-- FIFU: meta tags for featured image (begin) -->
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/codingers-enegx/image/upload/v1700277526/wordpress/abdurochmansidik/blog/featured-image/performance-optimization-for-websites.png"
+    />
+    <!-- FIFU: meta tags for featured image (end) -->
+    <meta property="og:title" content="Performance Optimization for Websites" />
+    <meta
+      property="og:description"
+      content="Website performance optimization is always something that should be top priority, especially when there is so much online competition. We have written a lot of performance tutorials over the past couple months, such as how to speed up WordPress, Joomla, Drupal, and more. But what if you aren’t on any of those platforms? Below are the top 18 optimization tips we recommend, regardless of the platform, if you are looking to optimize your site."
+    />
 
-		
-<link rel="shortcut icon" href="https://res.cloudinary.com/codingers-enegx/image/upload/v1700207332/wordpress/abdurochmansidik/image/favicon/favicon.ico">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Performance Optimization for Websites"
+    />
+    <meta
+      name="twitter:description"
+      content="Website performance optimization is always something that should be top priority, especially when there is so much online competition. We have written a lot of performance tutorials over the past couple months, such as how to speed up WordPress, Joomla, Drupal, and more. But what if you aren’t on any of those platforms? Below are the top 18 optimization tips we recommend, regardless of the platform, if you are looking to optimize your site."
+    />
+    <meta
+      name="twitter:image"
+      content="https://res.cloudinary.com/codingers-enegx/image/upload/v1700277526/wordpress/abdurochmansidik/blog/featured-image/performance-optimization-for-websites.png"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/style.css"
+    />
 
-			
+    <link
+      rel="shortcut icon"
+      href="https://res.cloudinary.com/codingers-enegx/image/upload/v1700207332/wordpress/abdurochmansidik/image/favicon/favicon.ico"
+    />
 
+    <style type="text/css">
+      .navigation a:hover,
+      .pagination a:hover,
+      .entry-meta a:hover,
+      .single-page-layout .vs-nav li i:hover,
+      .media-box .mask:before,
+      .button.primary:hover,
+      a.more-link:hover,
+      .flex-control-paging li a.flex-active,
+      .mejs-controls .mejs-time-rail .mejs-time-current,
+      .mejs-controls
+        .mejs-horizontal-volume-slider
+        .mejs-horizontal-volume-current {
+        background: #009966;
+      }
 
+      .entry-title a:hover,
+      .portfolio-nav a.button:hover,
+      .related-posts li a:hover,
+      .nav-single a:hover,
+      .comment-meta a:hover,
+      .comment-meta .fn + a:hover,
+      .comment-reply-link:hover {
+        color: #009966;
+      }
 
+      .portfolio-nav a.button:hover,
+      .format-link .link-content > a:first-child:hover,
+      .flex-control-paging li a:hover,
+      .bypostauthor > article {
+        border-color: #009966;
+      }
 
-<style type="text/css">.navigation a:hover, .pagination a:hover, .entry-meta a:hover, .single-page-layout .vs-nav li i:hover,
-	.media-box .mask:before, .button.primary:hover, a.more-link:hover, .flex-control-paging li a.flex-active,
-	.mejs-controls .mejs-time-rail .mejs-time-current,
-	.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current { background: #009966; }
+      .skill-unit .bar .progress,
+      .event .date,
+      .letter-info p i,
+      .media-cell-desc .date,
+      #nprogress .bar,
+      #fancybox-close,
+      .portfolio-nav a.button.back {
+        background: #5bcf80;
+      }
 
-	.entry-title a:hover, .portfolio-nav a.button:hover, .related-posts li a:hover, .nav-single a:hover,
-	.comment-meta a:hover, .comment-meta .fn + a:hover, .comment-reply-link:hover { color: #009966; }
+      #nprogress .spinner-icon {
+        border-top-color: #5bcf80;
+      }
 
-	.portfolio-nav a.button:hover, .format-link .link-content > a:first-child:hover,
-	.flex-control-paging li a:hover, .bypostauthor > article { border-color: #009966; }
-		
-	.skill-unit .bar .progress, .event .date, .letter-info p i, .media-cell-desc .date,
-	#nprogress .bar, #fancybox-close, .portfolio-nav a.button.back { background: #5bcf80; }
+      #nprogress .spinner-icon {
+        border-left-color: #5bcf80;
+      }
 
-	#nprogress .spinner-icon { border-top-color: #5bcf80; }
+      a {
+        color: #009966;
+      }
 
-	#nprogress .spinner-icon { border-left-color: #5bcf80; }
-		
-a { color: #009966; }
+      a:hover {
+        color: #5bcf80;
+      }
+    </style>
 
-a:hover { color: #5bcf80; }</style>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/skins/overlay.css"
+    />
+    <style>
+      :root {
+        --qlwapp-scheme-font-family: inherit;
+        --qlwapp-scheme-font-size: 18px;
+        --qlwapp-scheme-icon-size: 60px;
+        --qlwapp-scheme-icon-font-size: 24px;
+        --qlwapp-button-animation-name: none;
+      }
+    </style>
+  </head>
 
-<link rel="stylesheet" type="text/css" href="https://abdurochmansidik.my.id/wp-content/themes/cvcard/css/skins/overlay.css">
-					<style>:root {
-				--qlwapp-scheme-font-family:inherit;--qlwapp-scheme-font-size:18px;--qlwapp-scheme-icon-size:60px;--qlwapp-scheme-icon-font-size:24px;--qlwapp-button-animation-name:none;				}</style>
-			</head>
+  <body
+    class="post-template-default single single-post postid-20 single-format-standard"
+  >
+    <div id="container" class="container">
+      <header class="header">
+        <a href="https://abdurochmansidik.my.id/">
+          <img
+            alt="Abdurochman Sidik"
+            src="https://res.cloudinary.com/codingers-enegx/image/upload/v1700206888/wordpress/abdurochmansidik/image/pofil/profil-abdurochman-sidik.jpg"
+          />
+        </a>
 
-<body class="post-template-default single single-post postid-20 single-format-standard">
-	<div id="container" class="container">
-		<header class="header">
-										<a href="https://abdurochmansidik.my.id/">
-								<img alt="Abdurochman Sidik" src="https://res.cloudinary.com/codingers-enegx/image/upload/v1700206888/wordpress/abdurochmansidik/image/pofil/profil-abdurochman-sidik.jpg">
-							</a>
-									
-									<h1>Abdurochman Sidik</h1>
-								
-									<p>Hello, I am an Indonesian freelancer and blog writer</p>
-								
-										<ul class="vs-nav">
-								<li>
-									<a href="https://abdurochmansidik.my.id/blog/">
-										<i title="back to blog" class="icon-left-open tooltip" data-tooltip-pos="left"></i>
-									</a>
-								</li>
-								<li>
-									<a href="https://abdurochmansidik.my.id/">
-										<i title="go to home" class="icon-home-1 tooltip" data-tooltip-pos="top"></i>
-									</a>
-								</li>
-								<li>
-									<a>
-										<i title="search" class="search-link fa fa-search tooltip" data-tooltip-pos="right"></i>
-									</a>
-								</li>
-							</ul>
-									
-			<div class="header-search">
-				<form role="search" id="search-form" method="get" action="https://abdurochmansidik.my.id/wordpress/">
-					<input type="text" id="search" name="s" required="required" placeholder="ENTER KEYWORD" value="">
-					<input type="submit" id="search-submit" title="Search" value="&#8594;">
-				</form>
-			</div>
-		</header>
-	<div class="wrapper">
-		<div class="readable-content blog-single">
-										<article id="post-20" class="post-20 post type-post status-publish format-standard has-post-thumbnail hentry category-tak-berkategori">
-								<header class="entry-header">
-																		<h1 class="entry-title">Performance Optimization for Websites</h1>
-								</header>
-								
-								<div class="entry-meta">
-									<span class="posted-in">
-										posted in <a href="https://abdurochmansidik.my.id/category/tak-berkategori/" rel="category tag">Tak Berkategori</a>									</span>
-									<!-- end .posted-in -->
-									
-									<span class="posted-on">
-										on										
-										<a rel="bookmark" title="6:00 AM" href="https://abdurochmansidik.my.id/performance-optimization-for-websites/"><time class="entry-date" datetime="2012-11-09T23:15:57+00:00">01/04/2020</time></a>
-									</span>
-									<!-- end .posted-on -->
-									
-									<span class="posted-by">
-										by										
-										<a class="url fn n" rel="author" title="View all posts by Abdurochman Sidik" href="https://abdurochmansidik.my.id/author/abdurochmansidik/">Abdurochman Sidik</a>
-									</span>
-									<!-- end .posted-by -->
-									
-																	</div>
-								<!-- end .entry-meta -->
-								
-																			<div class="featured-image">
-												<img post-id="20" fifu-featured="1" width="1368" height="912" src="https://res.cloudinary.com/codingers-enegx/image/upload/v1700277526/wordpress/abdurochmansidik/blog/featured-image/performance-optimization-for-websites.png" class="attachment-full size-full wp-post-image" alt="Performance Optimization for Websites" title="Performance Optimization for Websites" decoding="async" fetchpriority="high">											</div>
-																		
-								<div class="entry-content clearfix">
-									<p>Website performance optimization is always something that should be top priority, especially when there is so much online competition. We have written a lot of performance tutorials over the past couple months, such as&nbsp;<a href="https://www.keycdn.com/blog/speed-up-wordpress">how to speed up WordPress</a>,&nbsp;<a href="https://www.keycdn.com/blog/speed-up-joomla">Joomla</a>,&nbsp;<a href="https://www.keycdn.com/blog/speed-up-drupal">Drupal</a>, and more. But what if you aren’t on any of those platforms? Below are the&nbsp;<strong>top 18 optimization tips we recommend, regardless of the platform</strong>, if you are looking to optimize your site.</p>
-<p>But before we dive into the tips there are a few tools you should be aware of so that you can first&nbsp;<a href="https://www.keycdn.com/support/pinpoint-website-performance-issues">pinpoint your website performance issues</a>. If you know where your website is slowing down or bottlenecking than you can re-adjust your priorities.</p>
-<p><strong>Test your website speed</strong></p>
-<p>First we recommend using a&nbsp;<a href="https://www.keycdn.com/blog/website-speed-test-tools">website speed test tool</a>&nbsp;to&nbsp;<strong>analyze the overall speed of your website.</strong>&nbsp;We suggest using KeyCDN’s&nbsp;<a href="https://tools.keycdn.com/speed">Website Speed Test</a>&nbsp;tool or&nbsp;<a href="http://www.webpagetest.org/">WebPageTest</a>&nbsp;as both of these support HTTP/2. Firefox 36+ or Chrome 41+ is required. You will see more below about why we recommend migrating to HTTPS to take advantage of HTTP/2.</p>
-<p><strong>Load test your website</strong></p>
-<p>Second, it is important to&nbsp;<strong>load test your website to see what might be causing bottlenecks</strong>. Below are few tools which can help test your website. These can also be very useful if you are trying to scale out a platform.</p>
-<ul>
-<li>
-<a href="https://www.spirent.com/products/cyberflood">CyberFlood</a>: Security and performance testing on websites and applications.</li>
-<li>
-<a href="https://loadimpact.com/">Load Impact</a>: Automated and on demand performance testing for DevOps. Load test your website, web app, mobile app or API instantly with up to 1.2 million concurrent users.</li>
-<li>
-<a href="https://loader.io/">Loader</a>: Load testing service that allows you to stress test your web-apps &amp; APIs with thousands of concurrent connections. Free up to 10,000 clients.</li>
-<li>
-<a href="https://blazemeter.com/">BlazeMeter</a>: Run massively scalable, open source-based performance tests against all of your apps, and validate performance at every software delivery stage.</li>
-</ul>
-<p>If you are running a WordPress site there is a useful plugin, such as&nbsp;<a href="https://wordpress.org/plugins/p3-profiler/">P3</a>, which can help pinpoint plugins that are slowing down your site.</p>
-<p><strong>Calculate website performance optimization budget</strong></p>
-<p>Jonathan Fielding has put together a great free little tool in which you can&nbsp;<a href="http://www.performancebudget.io/">calculate your performance budget</a>. Simply input how fast in seconds you want your site to load, and pick the connection speed.</p>
-<p>On the next page you can adjust the sliders based on the CSS, JS, Images, Video, and font usage on your website.</p>
-<p>On the last page it gives you a performance budget breakdown and estimated load times across the board for different connection types. Again these are all estimates but it can be useful to see how much spread there is between all the connection speeds.&nbsp;<strong>Don’t forget to optimize for mobile and slower devices</strong>.</p>
-<p><strong>Website performance optimization tips</strong></p>
-<p>Now that you have run some tests on your website to see where the delay or load is, it is now time to start optimizing, follow these optimization tips below.</p>
-<p><strong>1.Image optimization</strong></p>
-<p>We recently asked&nbsp;<a href="https://www.keycdn.com/blog/web-performance-advice">20+ web performance experts to share their advice</a>&nbsp;and mistakes they see people making. And guess what 46% of them said should be the number one focus when it comes to optimization? That’s right, image optimization! So now you’ve heard it from the experts, don’t just take our word for it.</p>
-<p>According to a 2016 report from HTTP Archive, on average,&nbsp;<a href="http://httparchive.org/interesting.php#bytesperpage?ictd[master]=vid~720f2d5d-60be-46fc-92c4-1774ba093d21&amp;ictd[il583]=rlt~1441669636~land~2_3853_seo_aa73a52e6449ecff40e9a5c66e7bb93f">64 percent of a website’s page weight</a>&nbsp;is made up of images. &#8211; HTTP Archive</p>
-<p>KeyCDN developed the&nbsp;<a href="https://www.keycdn.com/blog/smart-image-compression">Optimus WordPress plugin</a>&nbsp;along with an API which&nbsp;<strong>focuses on a combination of both lossless and lossy image compression</strong>. If you utilize the API, it can be used with any platform. The PHP library for the&nbsp;<a href="https://github.com/keycdn/php-optimus-api">Optimus API is available on GitHub</a>. If you are a developer feel free to contribute to the other Optimus API libraries as well.</p>
-<p>By using Optimus you can get rid of that Google PageSpeed Insights recommendation:&nbsp;<em>By compressing … you could save 4.7 KB (30%) without losses.</em>&nbsp;Another advantage of using Optimus is that it supports conversion to the WebP format which was developed by Google.</p>
-<p>According to Google, WebP lossless images are&nbsp;<a href="https://developers.google.com/speed/webp/docs/webp_lossless_alpha_study#results">26% smaller</a>&nbsp;than PNGs and&nbsp;<a href="https://developers.google.com/speed/webp/docs/webp_study">25-34% smaller</a>&nbsp;than JPEG images.</p>
-<p>You can add the following snippet to your .htaccess file to support the serving of WebP format instead of JPEG or PNG images. Note: WebP is currently only supported in Google Chrome and Opera.</p>
-<p>&lt;IfModule mod_rewrite.c&gt;<br>
-RewriteEngine On<br>
-RewriteCond %{HTTP_ACCEPT} image/webp<br>
-RewriteCond %{DOCUMENT_ROOT}/$1.webp -f<br>
-RewriteRule ^(path/to/your/images.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=accept:1]<br>
-&lt;/IfModule&gt;<br>
-&lt;IfModule mod_headers.c&gt;<br>
-Header append Vary Accept env=REDIRECT_accept<br>
-&lt;/IfModule&gt;<br>
-AddType image/webp .webp</p>
-<p>And if you are using WordPress you can use KeyCDN’s free WordPress&nbsp;<a href="https://wordpress.org/plugins/cache-enabler/">Cache Enabler</a>&nbsp;plugin to serve up the WebP format automatically. Here are some other third party tools you can also utilize for image compression.</p>
-<p><strong>Image minify plugins for the automated task systems</strong></p>
-<ul>
-<li>Grunt:&nbsp;<a href="https://www.npmjs.com/package/grunt-contrib-imagemin">grunt-contrib-imagemin</a>
-</li>
-<li>Gulp:&nbsp;<a href="https://www.npmjs.com/package/gulp-imagemin/">gulp-imagemin</a>
-</li>
-</ul>
-<p><strong>Third party online tools</strong></p>
-<ul>
-<li><a href="https://tinypng.com/?utm_source=KeyCDN&amp;utm_medium=link">TinyPNG</a></li>
-<li><a href="https://kraken.io/?utm_source=KeyCDN&amp;utm_medium=link">Kraken.io</a></li>
-<li>
-<a href="http://www.jpegmini.com/?utm_source=KeyCDN&amp;utm_medium=link">JPEGmini</a>&nbsp;(app available for OSX, iOS, Windows)</li>
-</ul>
-<p><strong>Local tools</strong></p>
-<ul>
-<li><a href="http://pngmini.com/?utm_source=KeyCDN&amp;utm_medium=link">ImageAlpha (Mac)</a></li>
-</ul>
-<p>Also make sure to take advantage of&nbsp;<a href="https://www.keycdn.com/blog/responsive-images">responsive images</a> using HTML srcset and sizes attributes to serve different scaled images based on the size of the display.</p>
-<p><strong>2.Reduce HTTP requests</strong></p>
-<p>When your browser fetches data from a server it does so using HTTP (Hypertext Transfer Protocol). It is a request/response between a client and a host. In general&nbsp;<strong>the more HTTP requests your web page makes the slower it will load</strong>.</p>
-<p>There are many ways you can reduce the number of requests such as:</p>
-<ul>
-<li>Inline your JavaScript (only if it is very small)</li>
-<li>Using CSS Sprites</li>
-<li>Reducing assets such as third party plugins that make a large number of external requests</li>
-<li>Don’t use third party frameworks unless they are absolutely needed</li>
-<li>Use less code!</li>
-<li>Combining your CSS and JS files (with HTTP/2 concatenation is no longer as important)</li>
-</ul>
-<p>The number of requests a particular website must make varies greatly from site to site. Running a site speed test will tell you how many requests were needed in order to generate a particular page.</p>
-<p>HTTP requests from KeyCDN Speed Test Tool</p>
-<p><strong>First HTTP request cleanup example</strong><a href="https://www.keycdn.com/blog/website-performance-optimization#first-http-request-cleanup-example"><strong>#</strong></a></p>
-<p>Here is an example of a common additional HTTP that can be removed. We have seen a lot of people enable remarketing and advertising in Google Analytics, and yet they don’t actually use this function. Typically users have a tendency to click enable on everything. By enabling this feature you will actually have a second HTTP request for this URL&nbsp;https://stats.g.doubleclick.net/r/collect&nbsp;which then produces a 302 redirect in your response header.</p>
-<p>If you are not using these features you can disable this by turning off “Remarketing” and “Advertising Reporting Features” under “Data Collection” in your Google Analytics settings.</p>
-<p>Or you can manually disable them by adding the following to your Google Analytics script.</p>
-<p>ga(&#8216;set&#8217;, &#8216;displayFeaturesTask&#8217;, null);</p>
-<p>After disabling this you will no longer have that 2nd HTTP request and your main script will no longer have a 302 redirect. This is just one example of an HTTP request cleanup.</p>
-<p><strong>Second HTTP request cleanup example</strong></p>
-<p>Another example of an HTTP request cleanup is if your running WordPress, by default, it includes an additional JavaScript file&nbsp;wp-emoji-release.min.js?ver=4.3.1&nbsp;in your header. Emojis are great and all, but are they really needed? It is worth the extra weight and time from the additional JavaScript file? Probably not. You can disable Emojis in WordPress by adding the following code to your your&nbsp;functions.php&nbsp;file.</p>
-<p>/**<br>
-* Disable the emoji&#8217;s<br>
-*/</p>
-<p>function disable_emojis() {<br>
-remove_action( &#8216;wp_head&#8217;, &#8216;print_emoji_detection_script&#8217;, 7 );<br>
-remove_action( &#8216;admin_print_scripts&#8217;, &#8216;print_emoji_detection_script&#8217; );<br>
-remove_action( &#8216;wp_print_styles&#8217;, &#8216;print_emoji_styles&#8217; );<br>
-remove_action( &#8216;admin_print_styles&#8217;, &#8216;print_emoji_styles&#8217; );<br>
-remove_filter( &#8216;the_content_feed&#8217;, &#8216;wp_staticize_emoji&#8217; );<br>
-remove_filter( &#8216;comment_text_rss&#8217;, &#8216;wp_staticize_emoji&#8217; );<br>
-remove_filter( &#8216;wp_mail&#8217;, &#8216;wp_staticize_emoji_for_email&#8217; );<br>
-add_filter( &#8216;tiny_mce_plugins&#8217;, &#8216;disable_emojis_tinymce&#8217; );<br>
-}</p>
-<p>add_action( &#8216;init&#8217;, &#8216;disable_emojis&#8217; );</p>
-<p>/**<br>
-* Filter function used to remove the tinymce emoji plugin.<br>
-*<br>
-* @param array $plugins<br>
-* @return array Difference betwen the two arrays<br>
-*/</p>
-<p>function disable_emojis_tinymce( $plugins ) {<br>
-if ( is_array( $plugins ) ) {<br>
-return array_diff( $plugins, array( &#8216;wpemoji&#8217; ) );<br>
-} else {<br>
-return array();<br>
-}<br>
-}</p>
-<p>Or you can also use the free&nbsp;<a href="https://wordpress.org/support/plugin/disable-emojis">Disable Emojis</a>&nbsp;plugin.</p>
-<p><strong>Don’t let things generate requests if they aren’t being used</strong>! Also don’t just optimize your homepage, the rest of your site deserves attention too.</p>
-<p><strong>3.Minify CSS and JavaScript</strong></p>
-<p>Minification of resources means&nbsp;<strong>removing unnecessary characters</strong>&nbsp;from your HTML, JavaScript, and CSS that are not required to load, such as:</p>
-<ul>
-<li>White space characters</li>
-<li>New line characters</li>
-<li>Comments</li>
-<li>Block delimiters</li>
-</ul>
-<p>This speeds up your load times as it reduces the amount of code that has to be requested from the server.</p>
-<p><strong>Minify plugins for the automated task systems</strong><a href="https://www.keycdn.com/blog/website-performance-optimization#minify-plugins-for-the-automated-task-systems"><strong>#</strong></a></p>
-<p><strong>JavaScript</strong></p>
-<ul>
-<li>Grunt:&nbsp;<a href="https://www.npmjs.com/package/grunt-contrib-uglify/?utm_source=KeyCDN&amp;utm_medium=link">grunt-contrib-uglify</a>
-</li>
-<li>Gulp:&nbsp;<a href="https://www.npmjs.com/package/gulp-uglify/?utm_source=KeyCDN&amp;utm_medium=link">gulp-uglify</a>
-</li>
-</ul>
-<p><strong>CSS</strong></p>
-<ul>
-<li>Grunt:&nbsp;<a href="https://www.npmjs.com/package/grunt-contrib-cssmin/?utm_source=KeyCDN&amp;utm_medium=link">grunt-contrib-cssmin</a>
-</li>
-<li>Gulp:&nbsp;<a href="https://www.npmjs.com/package/gulp-minify-css/?utm_source=KeyCDN&amp;utm_medium=link">gulp-minify-css</a>
-</li>
-</ul>
-<p>If you are using WordPress you can also minify your CSS and JavaScript with the&nbsp;<a href="https://wordpress.org/plugins/cache-enabler/">Cache Enabler</a> plugin.</p>
-<p><strong>4.Critical path and render blocking resources (CSS + JS)</strong></p>
-<p>When it comes to analyzing the speed of your web pages you always need to take into consideration what might be&nbsp;<a href="https://www.keycdn.com/blog/blocking-the-dom">blocking the DOM</a>, causing delays in your page load times. These are also referred to as&nbsp;<strong>render blocking resources</strong>, such as HTML, CSS (this can include web fonts), and JavaScript. Here are a few recommendations on how to prevent your CSS and JavaScript from blocking the DOM by optimizing your critical rendering path.</p>
-<p><strong>CSS</strong></p>
-<ol>
-<li>Properly call your CSS files</li>
-<li>Use&nbsp;<a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css">media queries</a>&nbsp;to mark some CSS resources as non-render blocking</li>
-<li>Lessen the amount of CSS files (concatenate your CSS files into one file)</li>
-<li>Minify Your CSS (remove extra spaces, characters, comments, etc)</li>
-<li>Use less CSS overall</li>
-</ol>
-<p><strong>JavaScript</strong></p>
-<p>When it comes to JavaScript there are some best practices to always keep in mind.</p>
-<ol>
-<li>Move your scripts to the bottom of the page right before your&nbsp;&lt;/body&gt;&nbsp;tag.</li>
-<li>Use the async or defer directive to avoid render blocking.</li>
-<li>Concatenate your JS files into one file (with HTTP/2 this is no longer as important)</li>
-<li>Minify your JavaScript (remove extra spaces, characters, etc)</li>
-<li>Inline your JavaScript if it is small</li>
-</ol>
-<p><strong>Async allows the script to be downloaded in the background without blocking</strong>. Then, the moment it finishes downloading, rendering is blocked and that script executes. Render resumes when the script has executed.</p>
-<p>&lt;script async src=&#8221;foobar.js&#8221;&gt;&lt;/script&gt;</p>
-<p>Your other option is to defer JavaScript. This directive does the same thing as async, except it guarantees that scripts execute in the order they were specified on the page. Patrick Sexton has a good example of&nbsp;<a href="https://varvy.com/pagespeed/defer-loading-javascript.html">how to defer loading of JavaScript</a>&nbsp;properly.</p>
-<p>We also discuss your options for web fonts further down in this post.</p>
-<p><strong>5.Reduce latency with a content delivery network (CDN)</strong></p>
-<p>If you are not familiar with a content delivery network (CDN) we highly recommend you read our&nbsp;<a href="https://www.keycdn.com/what-is-a-cdn">complete CDN guide</a>. Besides speeding up the delivery of your assets around the globe a&nbsp;<strong>CDN also can dramatically decrease your latency</strong>.</p>
-<p>50% of your 1-second page load time budget on mobile is taken up by network latency overhead. &#8211;&nbsp;<a href="https://blog.radware.com/applicationdelivery/applicationaccelerationoptimization/2014/01/55-web-performance-stats-youll-want-to-know/">WPT</a></p>
-<p>We ran a test to show you the difference in latency times with and without a CDN implemented. This is simply from a connectivity perspective. We used KeyCDN’s&nbsp;<a href="https://tools.keycdn.com/ping">ping test tool</a>&nbsp;which conveniently allows us to&nbsp;<strong>simultaneously test from the following 10 locations</strong>. And here are the results between the two.</p>
-<table width="551">
-<thead>
-<tr>
-<td><strong>Server (POP) location</strong></td>
-<td><strong>No CDN RTT (ms)</strong></td>
-<td><strong>KeyCDN RTT (ms)</strong></td>
-<td><strong>Difference %</strong></td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>New York, US</td>
-<td>36.908</td>
-<td>18.096</td>
-<td>&#8211; 50.97%</td>
-</tr>
-<tr>
-<td>Dallas, US</td>
-<td>0.751</td>
-<td>1.138</td>
-<td>+ 51.53%</td>
-</tr>
-<tr>
-<td>San Francisco, US</td>
-<td>39.645</td>
-<td>18.900</td>
-<td>&#8211; 52.33%</td>
-</tr>
-<tr>
-<td>Frankfurt, DE</td>
-<td>123.072</td>
-<td>3.734</td>
-<td>&#8211; 96.97%</td>
-</tr>
-<tr>
-<td>London, UK</td>
-<td>127.555</td>
-<td>4.548</td>
-<td>&#8211; 96.43%</td>
-</tr>
-<tr>
-<td>Paris, FR</td>
-<td>112.417</td>
-<td>.689</td>
-<td>&#8211; 98.5%</td>
-</tr>
-<tr>
-<td>Amsterdam, NL</td>
-<td>118.418</td>
-<td>10.364</td>
-<td>&#8211; 91.25%</td>
-</tr>
-<tr>
-<td>Singapore, SG</td>
-<td>202.682</td>
-<td>2.002</td>
-<td>&#8211; 99.01%</td>
-</tr>
-<tr>
-<td>Sydney, AU</td>
-<td>191.848</td>
-<td>0.705</td>
-<td>&#8211; 99.63%</td>
-</tr>
-<tr>
-<td>Tokyo, JP</td>
-<td>130.804</td>
-<td>3.379</td>
-<td>&#8211; 97.42%</td>
-</tr>
-</tbody>
-</table>
-<p><strong>The latency between our origin server (without a CDN) and our POPs (with a CDN) on average is decreased by 73%!</strong>&nbsp;See the full details of our&nbsp;<a href="https://www.keycdn.com/blog/website-latency">website latency test</a>.</p>
-<p>You can implement a CDN on almost any platform that exists as KeyCDN has over 25 different integrations. Here is a quick list of our integration guides.</p>
-<ul>
-<li><a href="https://www.keycdn.com/support/wordpress-cdn-integration-with-cdn-enabler">WordPress integration</a></li>
-<li><a href="https://www.keycdn.com/support/integrations/cms">CMS integration guides</a></li>
-<li><a href="https://www.keycdn.com/support/integrations/frameworks">Framework integration guides</a></li>
-<li><a href="https://www.keycdn.com/support/aws-s3-cdn-integration">AWS S3 CDN integration</a></li>
-<li><a href="https://www.keycdn.com/support/google-cloud-storage-cdn-integration">Google Cloud Storage CDN integration</a></li>
-<li><a href="https://www.keycdn.com/support/cdn-integration">Custom CDN integration</a></li>
-</ul>
-<p><strong>6.TTFB</strong></p>
-<p>Time to first byte (TTFB) is the&nbsp;<strong>measurement of the responsiveness of a web server</strong>. Basically it is the time it takes your browser to start receiving information after it has requested it from the server. A website’s TTFB is calculated as:</p>
-<p><strong>HTTP request time + Process request time + HTTP response time</strong></p>
-<p>TTFB is shown as the green waiting bar in&nbsp;<a href="https://www.keycdn.com/blog/chrome-devtools">Chrome DevTools</a>.</p>
-<p>By using a CDN, a fast web host, and a reliable DNS provider you can dramatically reduce your overall TTFB. Read more about&nbsp;<a href="https://www.keycdn.com/blog/a-slow-website-time-to-first-byte-ttfb">time to first byte</a> and time to last byte.</p>
-<p><strong>7.Avoid 301 redirects</strong></p>
-<p>Redirects are performance killers. Avoid them whenever possible. A redirect will generate additional round trip times (RTT) and therefore quickly doubles the time that is required to load the initial HTML document before the browser even starts to load other assets.</p>
-<p><strong>8.Caching</strong></p>
-<p><strong>Browser cache</strong></p>
-<p>Leveraging the browser cache is crucial for assets that are rarely changing. It is recommended to have a max-age of 7 days in such cases. There are different types of HTTP headers such as:</p>
-<ol>
-<li>Cache-Control</li>
-<li>Pragma</li>
-<li>Expires</li>
-</ol>
-<p>Learn more about different control mechanisms in this article:&nbsp;<a href="https://www.keycdn.com/blog/http-cache-headers">A Guide to HTTP Cache Headers</a>.</p>
-<p>One of the most important HTTP cache headers is probably Cache-Control which is a header comprised of a set of directives that allow you define when / how a response should be cached and for how long. HTTP caching occurs when a browser stores copies of resources for faster access. This can be used with your HTTPS implementation. See our full guide on&nbsp;<a href="https://www.keycdn.com/support/cache-control">how to use the cache-control header directives</a>.</p>
-<p>If you are using KeyCDN you can add or modify the Expires and Cache-Control response header fields that are sent to the client. The&nbsp;<strong>Expires</strong>&nbsp;feature is available within the KeyCDN dashboard by going to the Zone settings.</p>
-<ul>
-<li>
-<strong>-1</strong>&nbsp;Cache-Control: no-cache</li>
-<li>
-<strong>0</strong>&nbsp;Push Zone: disabled / Pull Zone: as received from the origin (header honoring)</li>
-<li>
-<strong>&gt;0</strong>&nbsp;Cache-Control: max-age=<em>t</em>, where t is the time specified in the directive in minutes converted to seconds</li>
-</ul>
-<p>This setting overwrites the value received from the origin in case of a Pull Zone. The&nbsp;<em>expire</em>&nbsp;value&nbsp;<strong>only impacts browser cache and not the KeyCDN cache</strong>.</p>
-<p><strong>Server cache</strong></p>
-<p>There are different forms of server-side caching when it comes to website performance optimization. This is usually done on higher traffic sites.&nbsp;<a href="https://www.keycdn.com/support/using-a-varnish-cdn-stack-with-keycdn">Varnish cache</a>&nbsp;is one example which can be very powerful when combined with a caching plugin, and a CDN. You can also utilize caching plugins which usually exist for each CMS platform.</p>
-<ul>
-<li>See our&nbsp;<a href="https://www.keycdn.com/blog/speed-up-wordpress#2-utilize-caching">WordPress caching guide</a>
-</li>
-<li>See our&nbsp;<a href="https://www.keycdn.com/blog/speed-up-drupal#3-utilize-caching">Drupal caching guide</a>
-</li>
-<li>See our&nbsp;<a href="https://www.keycdn.com/blog/speed-up-magento#3-utilize-caching">Magento caching guide</a>
-</li>
-<li>See our&nbsp;<a href="https://www.keycdn.com/blog/speed-up-xenforo#2-utilize-caching">XenForo caching guide</a>
-</li>
-</ul>
-<p><strong>9.Prefetch and preconnect</strong></p>
-<p><strong>Domain name prefetching</strong>&nbsp;is a good solution to already resolve domain names before a user actually follows a link. Here an example how to implement it in the HEAD section of your HTML:</p>
-<p>&lt;link rel=&#8221;dns-prefetch&#8221; href=&#8221;//www.example.com&#8221;&gt;</p>
-<p>The double slashes indicate that the URL begins with a host name (this is specified in the&nbsp;<a href="http://www.ietf.org/rfc/rfc1808.txt">RFC1808</a>).</p>
-<p><strong>Preconnect allows the browser to set up early connections</strong>&nbsp;before an HTTP request is actually sent to the server. Connections such as DNS Lookup, TCP Handshake, and TLS negotiation can be initiated beforehand, eliminating roundtrip latency for those connections and saving time for users.</p>
-<p>The example below shows what it looks like to enable preconnect for the Zone Alias link for KeyCDN.</p>
-<p>&lt;link href=&#8217;https://cdn.keycdn.com&#8217; rel=&#8217;preconnect&#8217; crossorigin&gt;</p>
-<p>Read our in-depth article on&nbsp;<a href="https://www.keycdn.com/support/preconnect">preconnect</a>.</p>
-<p><strong>10.HTTP/2</strong></p>
-<p>Jeff Atwood, the co-founder of Stack Exchange and Discourse answered in our&nbsp;<a href="https://www.keycdn.com/blog/web-performance-advice">web perf questions</a>&nbsp;that the number one piece of advice he would give is “<strong>HTTP/2 adoption across the board &#8211; huge improvements for everyone.</strong>” We love Jeff’s answer as we definitely agree that HTTP/2 is the future and there are huge performance benefits.</p>
-<p>Go, the programming language, has a great example of when you are dealing with a lot more images on a page and how&nbsp;<a href="https://http2.golang.org/gophertiles">HTTP/2 far exceeds that of HTTP/1</a>.</p>
-<p>To enable HTTP/2 all that is required is an SSL certificate (it requires TLS) and a server that supports HTTP/2. You can use KeyCDN’s&nbsp;<a href="https://tools.keycdn.com/http2-test">HTTP/2 test tool</a>&nbsp;to see if you are supported. And KeyCDN now offer’s free SSL certificates with our&nbsp;<a href="https://www.keycdn.com/blog/free-ssl-certificates">Let’s Encrypt integration</a>. Haven’t migrated to HTTPS yet? We have also have an&nbsp;<a href="https://www.keycdn.com/blog/http-to-https">HTTP to HTTPS migration guide</a>.</p>
-<p><strong>11.PHP7 and HHVM</strong></p>
-<p>Keeping the various components of a web server up to date is critical for reasons such as security patches, performance upgrades, and so on. If you are using PHP, upgrading to PHP7 can help greatly improve performance as compared to PHP 5.6. As well as taking advantage of HHVM.</p>
-<p>Based on the results from the above image, PHP7 is able to handle 204 requests per seconds compared to PHP 5.6’s 96 in WordPress 3.6 Additionally, PHP7 is able to handle 183 more requests than PHP5.6 in WordPress 4.1.</p>
-<p>HHVM, an open source VM used by websites like Facebook also been shown to produce good results. When testing PHP 7 and HHVM Kinsta got slightly different results from Zend. From their conclusions&nbsp;<a href="https://kinsta.com/blog/the-definitive-php-7-final-version-hhvm-benchmark/">HHVM wins hands down</a>.</p>
-<p>A lot of these test results will vary due to environments, hardware, CMS platforms tested, versions, etc. But either way,&nbsp;<strong>both PHP7 and HHVM can be great ways to improve the performance of your website</strong>.</p>
-<p><strong>12.Web font performance</strong></p>
-<p>According to the&nbsp;<a href="http://httparchive.org/trends.php#perFonts">HTTP Archive</a>,&nbsp;<strong>60% of websites are now using custom fonts</strong>. Which is over an 850% increase since 2011. The disadvantages of web fonts, such as Google Fonts, are that they add extra HTTP requests to external resources. Web fonts are also render blocking. Below are some recommendations for better web font performance.</p>
-<ol>
-<li>Prioritize based on browser support</li>
-<li>Choose only the styles you need</li>
-<li>Keep character sets down to a minimum</li>
-<li>Host fonts locally or prefetch</li>
-<li>Store in LocalStorage with Base64 Encoding</li>
-</ol>
-<p>You can see an example of each method above in our post on analyzing&nbsp;<a href="https://www.keycdn.com/blog/web-font-performance">web font performance</a>. Georgia is a great system font that comes to mind that looks great and makes for easy readability.</p>
-<p>You can also&nbsp;<a href="https://www.keycdn.com/blog/google-fonts-cdn">move your Google Fonts to your CDN</a>. We ran our own comparison between using Google’s CDN and KeyCDN, and it was faster to use KeyCDN. Why? Because it reduces the number of HTTP requests, DNS lookups, lets you take advantage of a single HTTP/2 connection, and have more control over caching.</p>
-<table width="556">
-<thead>
-<tr>
-<td><strong>Speed test</strong></td>
-<td><strong>Google CDN (ms)</strong></td>
-<td><strong>KeyCDN (ms)</strong></td>
-<td><strong>Winner</strong></td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>WebPageTest Load Time</td>
-<td>1871ms</td>
-<td>1815ms</td>
-<td>KeyCDN</td>
-</tr>
-<tr>
-<td>WebPageTest Fully Loaded</td>
-<td>1929ms</td>
-<td>1862ms</td>
-<td>KeyCDN</td>
-</tr>
-<tr>
-<td>Pingdom Load Time</td>
-<td>355ms</td>
-<td>324ms</td>
-<td>KeyCDN</td>
-</tr>
-</tbody>
-</table>
-<p><strong>13.Hotlink protection</strong></p>
-<p>Hotlink protection refers to restricting HTTP referrers in order to prevent others from embedding your assets on other websites. Hotlink protection will save you bandwidth by&nbsp;<strong>prohibiting other sites from displaying your images</strong>.</p>
-<p>Example: Your site URL is&nbsp;www.domain.com. To stop hotlinking of your images from other sites and display a replacement image called&nbsp;donotsteal.jpg&nbsp;from an image host, place this code in your&nbsp;.htaccess&nbsp;file:</p>
-<p>RewriteEngine On<br>
-RewriteCond %{HTTP_REFERER} !^http://(.+\.)?domain\.com/ [NC]<br>
-RewriteCond %{HTTP_REFERER} !^$<br>
-RewriteRule .*\.(jpe?g|gif|bmp|png)$ http://i.imgur.com/donotsteal.gif [L]</p>
-<p>KeyCDN also has an easy way to enable hotlink protection to protect your CDN bandwidth. See our tutorial on how to&nbsp;<a href="https://www.keycdn.com/support/create-a-zone-referrer">create a Zone Referrer</a>.</p>
-<p><strong>14.Enable Gzip compression</strong></p>
-<p>Gzip is another form of compression which compresses web pages, CSS, and JavaScript at the server level before sending them over to the browser. This website performance optimization is easy to implement and can make a big difference.</p>
-<p><strong>Apache</strong></p>
-<p>You can enable compression by adding the following to your&nbsp;.htaccess&nbsp;file.</p>
-<p>&lt;IfModule mod_deflate.c&gt;</p>
-<p># Compress HTML, CSS, JavaScript, Text, XML and fonts<br>
-AddOutputFilterByType DEFLATE application/javascript<br>
-AddOutputFilterByType DEFLATE application/rss+xml<br>
-AddOutputFilterByType DEFLATE application/vnd.ms-fontobject<br>
-AddOutputFilterByType DEFLATE application/x-font<br>
-AddOutputFilterByType DEFLATE application/x-font-opentype<br>
-AddOutputFilterByType DEFLATE application/x-font-otf<br>
-AddOutputFilterByType DEFLATE application/x-font-truetype<br>
-AddOutputFilterByType DEFLATE application/x-font-ttf<br>
-AddOutputFilterByType DEFLATE application/x-javascript<br>
-AddOutputFilterByType DEFLATE application/xhtml+xml<br>
-AddOutputFilterByType DEFLATE application/xml<br>
-AddOutputFilterByType DEFLATE font/opentype<br>
-AddOutputFilterByType DEFLATE font/otf<br>
-AddOutputFilterByType DEFLATE font/ttf<br>
-AddOutputFilterByType DEFLATE image/svg+xml<br>
-AddOutputFilterByType DEFLATE image/x-icon<br>
-AddOutputFilterByType DEFLATE text/css<br>
-AddOutputFilterByType DEFLATE text/html<br>
-AddOutputFilterByType DEFLATE text/javascript<br>
-AddOutputFilterByType DEFLATE text/plain<br>
-AddOutputFilterByType DEFLATE text/xml</p>
-<p># Remove browser bugs (only needed for really old browsers)<br>
-BrowserMatch ^Mozilla/4 gzip-only-text/html<br>
-BrowserMatch ^Mozilla/4\.0[678] no-gzip<br>
-BrowserMatch \bMSIE !no-gzip !gzip-only-text/html<br>
-Header append Vary User-Agent<br>
-&lt;/IfModule&gt;</p>
-<p><strong>Nginx</strong></p>
-<p>You can enable compression by adding the following to your&nbsp;nginx.conf&nbsp;file.</p>
-<p>gzip on;&nbsp;gzip_comp_level 2;&nbsp;gzip_http_version 1.0;&nbsp;gzip_proxied any;&nbsp;gzip_min_length 1100;&nbsp;gzip_buffers 16 8k;&nbsp;gzip_types text/plain text/html text/css application/x-javascript text/xml application/xml application/xml+rss text/javascript;&nbsp;gzip_disable &#8220;MSIE [1-6].(?!.*SV1)&#8221;;&nbsp;gzip_vary on;</p>
-<p><strong>15.Infrastructure</strong></p>
-<p>Having a fast web host is equally as important as any website performance optimization you could make, as it is the backbone of your site. Stay away from cheap shared hosting. We suggest going with a VPS or if you are running WordPress or Drupal, a managed host, depending upon your level of expertise and time.</p>
-<p><strong>VPS</strong></p>
-<p><a href="https://m.do.co/c/eb1e6a3d8243">DigitalOcean</a>&nbsp;is a great cloud VPS provider and you can get started running your website for as little as $5/month. They feature SSDs, 1Gbps network, a dedicated IP address, and you can easily scale up or down in a matter of seconds.</p>
-<p><a href="https://www.linode.com/?r=550fde4fe78abb8e7a4c1ba2c7180832bb627800">Linode</a>&nbsp;is also another good choice if you are looking for a cloud VPS. They have plans starting at $10/month and all feature SSDs, API, CLI, and easy scaling across 8 datacenters in 3 different regions.</p>
-<p><a href="http://www.vultr.com/?ref=6826566">Vultr</a>&nbsp;is slightly newer to the VPS game, but they provide very fast and stable servers throughout their 14 different locations. A newer feature they now offer is DDoS mitigation service.</p>
-<p><strong>Managed hosting</strong></p>
-<p>For those less tech savvy a managed host might be a better solution. Yes, you will pay more, but depending on the size of your business and how important your time is, the price sometimes outweighs the cost.</p>
-<p>Here are some popular managed WordPress hosts that focus on high performance:</p>
-<ul>
-<li><a href="https://kinsta.com/">Kinsta</a></li>
-<li><a href="https://pagely.com/">Pagely</a></li>
-<li>
-<a href="https://raidboxes.de/">Raidboxes</a>&nbsp;(German)</li>
-<li>
-<a href="https://www.mittwald.de/wordpress-hosting">Mittwald</a>&nbsp;(German)</li>
-</ul>
-<p>Here are some popular managed Drupal hosts:</p>
-<ul>
-<li><a href="https://pantheon.io/features/drupal-hosting">Pantheon</a></li>
-<li><a href="https://www.rochen.com/drupal-hosting/">Rochen</a></li>
-</ul>
-<p><strong>16.Fix 404 errors</strong></p>
-<p>Any missing file generates a 404 HTTP error. Depending upon the platform you are running 404 errors can be quite taxing on your server. For example,&nbsp;<strong>Drupal has very expensive 404 errors</strong>. On an ‘average’ site with an ‘average’ module load, you can be looking at 60-100MB of memory being consumed on your server to deliver a 404.</p>
-<p>We don’t recommend installing plugins or modules to check for 404s, instead we advise you occasionally run your website through an external service such as the “<a href="http://www.brokenlinkcheck.com/">Online Broken Link Checker</a>” or a tool like&nbsp;<a href="http://www.screamingfrog.co.uk/seo-spider/">Screaming Frog</a>. This ensures that you aren’t wasting any of your server’s resources on this task. You can also see these in Google Search Console.</p>
-<p><strong>17.Serve scaled images</strong></p>
-<p>You should always upload your images at scale and not rely on CSS to size them down. If you do you will run into this little Google PageSpeed recommendation:&nbsp;<em>Optimization suggestion: “By compressing and adjusting the size of … you can save 5.8 KB (51%).</em></p>
-<p>This recommendation refers to your images being scaled down by your browser. For example, maybe the image you upload has a 400px width, but the column it was placed in is only 300px wide. This results in your image being scaled down to 300px due to CSS so that it matches the column size. It is better to always upload images at scale and also upload multiple resolutions of your images and serve the right resolution for the right device.</p>
-<p>Note: It is not always possible to avoid scaling with CSS, especially if you are working with high resolution retina devices.</p>
-<p><strong>18.Database optimization</strong></p>
-<p>And last but not least is database optimization. Whether it is cleaning out old unused tables or creating indexes for faster access there are always things that can be optimized.</p>
-<p><strong>MySQL tuning</strong></p>
-<p>Optimizing MySQL is also very important. Unfortunately this is very specific to your environment and your setup so we can’t provide recommended configurations. The MySQL/MariaDB configuration file is normally located in&nbsp;/etc/my.cnf. Here are a few settings though to keep an eye on.</p>
-<ul>
-<li>tmp_table_size</li>
-<li>query_cache_type</li>
-<li>query_cache_size</li>
-<li>query_cache_size</li>
-<li>join_buffer_size</li>
-<li>max_heap_table_size</li>
-</ul>
-<p>A highly recommended tool is the&nbsp;<a href="http://mysqltuner.com/">MySQL Tuner</a>&nbsp;script. It is read-only and won’t make configuration changes. It will give you an overview of your server’s performance and make some basic recommendations about improvements that you can make after it completes. Here are a couple other tools you can use as well:</p>
-<ul>
-<li><a href="https://launchpad.net/mysql-tuning-primer">MySQL tuning primer script</a></li>
-<li><a href="https://www.phpmyadmin.net/">phpMyAdmin</a></li>
-<li>See our&nbsp;<a href="https://www.keycdn.com/blog/speed-up-wordpress#4-optimize-wordpress-database">WordPress database optimizations</a>
-</li>
-<li>See our&nbsp;<a href="https://www.keycdn.com/blog/speed-up-joomla#7-clean-up-joomla-db">Joomla database optimizations</a>
-</li>
-<li>See our&nbsp;<a href="https://www.keycdn.com/blog/speed-up-magento#8-clean-up-magento-database-logs">Magento database optimizations</a>
-</li>
-</ul>
-<p><strong>Summary</strong></p>
-<p>As you can see there are hundreds of different website performance optimization tweaks you can implement to further improve on the delivery and speed of your content. From image optimization, to implementing a CDN, to browser and server caching, taking advantage of HTTP/2, Gzip, PHP7, HHVM, and much more!</p>
-<p>Are there some website performance optimization tips that we left out? If so feel free to let us know below.</p>
-<p><a href="https://www.keycdn.com/blog/website-performance-optimization">Source</a></p>
-<div class="yarpp yarpp-related yarpp-related-website yarpp-template-list">
-<!-- YARPP List -->
-<div class="related-posts">
-<h3>RELATED POSTS</h3>
-<ol>
-<li><a href="https://abdurochmansidik.my.id/web-design-is-95-typography/" rel="bookmark" title="Web Design is 95% Typography">Web Design is 95% Typography</a></li>
-</ol>
-</div>
-</div>
-									
-																	</div>
-								
-															</article>
-							
-							<aside class="about-author">
-	<h3>WRITTEN BY</h3>
-	
-	<div class="author-bio">
-		<div class="author-img">
-			<a href="https://abdurochmansidik.my.id/author/abdurochmansidik/">
-				<img alt="Abdurochman Sidik" src="https://secure.gravatar.com/avatar/cd450e7614e24c8fad74d900d1f66028?s=192&#038;d=mm&#038;r=g" srcset="https://secure.gravatar.com/avatar/cd450e7614e24c8fad74d900d1f66028?s=384&#038;d=mm&#038;r=g 2x" class="avatar avatar-192 photo" height="192" width="192" decoding="async">			</a>
-		</div>
-		
-		<div class="author-info">
-			<h4 class="author-name">Abdurochman Sidik</h4>
-			
-			<p>
-				Hello, I am an Indonesian freelancer and blog writer			</p>
-		</div>
-	</div>
-</aside>							
-							<nav class="row nav-single">
-								<div class="col-sm-6 nav-previous">
-									<h4>PREVIOUS POST</h4>
-<a href="https://abdurochmansidik.my.id/steve-jobs/" rel="prev"><span class="meta-nav">←</span> Steve Jobs</a>								</div>
-								
-								<div class="col-sm-6 nav-next">
-									<h4>NEXT POST</h4>
-<a href="https://abdurochmansidik.my.id/web-design-is-95-typography/" rel="next">Web Design is 95% Typography <span class="meta-nav">→</span></a>								</div>
-							</nav>
-							
-							
-<div id="comments" class="comments-area">
-		
-	</div>
-<!-- end #comments -->								</div>
-	</div>
-</div>
+        <h1>Abdurochman Sidik</h1>
 
-	<div id="qlwapp" class="qlwapp qlwapp-free qlwapp-bubble qlwapp-bottom-right qlwapp-all qlwapp-rounded">
-	<div class="qlwapp-container">
-		
-		<a class="qlwapp-toggle" data-action="open" data-phone="6289512071613" data-message="Hello! I&#039;m testing the Social Chat plugin https://quadlayers.com/landing/whatsapp-chat/?utm_source=qlwapp_admin" role="button" tabindex="0" target="_blank">
-							<i class="qlwapp-icon qlwapp-whatsapp-icon"></i>
-						<i class="qlwapp-close" data-action="close">&times;</i>
-					</a>
-	</div>
-</div>
-<link rel="stylesheet" id="yarppRelatedCss-css" href="https://abdurochmansidik.my.id/wp-content/plugins/yet-another-related-posts-plugin/style/related.css?ver=5.30.9" type="text/css" media="all">
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-includes/js/comment-reply.min.js?ver=6.4.1" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/jquery.address-1.5.min.js" id="address-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/triple.layout.js" id="triple-layout-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/smoothscroll.js" id="smoothscroll-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/nprogress/nprogress.js" id="nprogress-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/fastclick.js" id="fastclick-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/jquery.isotope.min.js" id="isotope-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/jquery.flexslider-min.js" id="flexslider-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/jquery.fitvids.js" id="fitvids-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/jquery.validate.min.js" id="validate-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/jquery.uniform.min.js" id="uniform-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/jquery.fancybox-1.3.4.pack.js" id="fancybox-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/jquery.tooltipster.min.js" id="tooltipster-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/google-code-prettify/prettify.js" id="prettify-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/twitterFetcher_v10_min.js" id="twitter-fetcher-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/mediaelement/mediaelement-and-player.min.js" id="mediaelement-and-player-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/send-mail.js" id="send-mail-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/classie.js" id="classie-js"></script>
-<script type="text/javascript" src="//maps.googleapis.com/maps/api/js" id="cvcard-google-map-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/main.js" id="main-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/wp-fix.js" id="wp-fix-js"></script>
-<script type="text/javascript" src="https://abdurochmansidik.my.id/wp-content/plugins/wp-whatsapp-chat/build/frontend/js/index.js?ver=94d83fb2a949d0dce93a" id="qlwapp-js"></script>
-</body>
+        <p>Hello, I am an Indonesian freelancer and blog writer</p>
+
+        <ul class="vs-nav">
+          <li>
+            <a href="https://abdurochmansidik.my.id/blog/">
+              <i
+                title="back to blog"
+                class="icon-left-open tooltip"
+                data-tooltip-pos="left"
+              ></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://abdurochmansidik.my.id/">
+              <i
+                title="go to home"
+                class="icon-home-1 tooltip"
+                data-tooltip-pos="top"
+              ></i>
+            </a>
+          </li>
+          <li>
+            <a>
+              <i
+                title="search"
+                class="search-link fa fa-search tooltip"
+                data-tooltip-pos="right"
+              ></i>
+            </a>
+          </li>
+        </ul>
+
+        <div class="header-search">
+          <form
+            role="search"
+            id="search-form"
+            method="get"
+            action="https://abdurochmansidik.my.id/wordpress/"
+          >
+            <input
+              type="text"
+              id="search"
+              name="s"
+              required="required"
+              placeholder="ENTER KEYWORD"
+              value=""
+            />
+            <input
+              type="submit"
+              id="search-submit"
+              title="Search"
+              value="&#8594;"
+            />
+          </form>
+        </div>
+      </header>
+      <div class="wrapper">
+        <div class="readable-content blog-single">
+          <article
+            id="post-20"
+            class="post-20 post type-post status-publish format-standard has-post-thumbnail hentry category-tak-berkategori"
+          >
+            <header class="entry-header">
+              <h1 class="entry-title">Performance Optimization for Websites</h1>
+            </header>
+
+            <div class="entry-meta">
+              <span class="posted-in">
+                posted in
+                <a
+                  href="https://abdurochmansidik.my.id/category/tak-berkategori/"
+                  rel="category tag"
+                  >Tak Berkategori</a
+                >
+              </span>
+              <!-- end .posted-in -->
+
+              <span class="posted-on">
+                on
+                <a
+                  rel="bookmark"
+                  title="6:00 AM"
+                  href="https://abdurochmansidik.my.id/performance-optimization-for-websites/"
+                  ><time class="entry-date" datetime="2012-11-09T23:15:57+00:00"
+                    >01/04/2020</time
+                  ></a
+                >
+              </span>
+              <!-- end .posted-on -->
+
+              <span class="posted-by">
+                by
+                <a
+                  class="url fn n"
+                  rel="author"
+                  title="View all posts by Abdurochman Sidik"
+                  href="https://abdurochmansidik.my.id/author/abdurochmansidik/"
+                  >Abdurochman Sidik</a
+                >
+              </span>
+              <!-- end .posted-by -->
+            </div>
+            <!-- end .entry-meta -->
+
+            <div class="featured-image">
+              <img
+                post-id="20"
+                fifu-featured="1"
+                width="1368"
+                height="912"
+                src="https://res.cloudinary.com/codingers-enegx/image/upload/v1700277526/wordpress/abdurochmansidik/blog/featured-image/performance-optimization-for-websites.png"
+                class="attachment-full size-full wp-post-image"
+                alt="Performance Optimization for Websites"
+                title="Performance Optimization for Websites"
+                decoding="async"
+                fetchpriority="high"
+              />
+            </div>
+
+            <div class="entry-content clearfix">
+              <p>
+                Website performance optimization is always something that should
+                be top priority, especially when there is so much online
+                competition. We have written a lot of performance tutorials over
+                the past couple months, such as&nbsp;<a
+                  href="https://www.keycdn.com/blog/speed-up-wordpress"
+                  >how to speed up WordPress</a
+                >,&nbsp;<a href="https://www.keycdn.com/blog/speed-up-joomla"
+                  >Joomla</a
+                >,&nbsp;<a href="https://www.keycdn.com/blog/speed-up-drupal"
+                  >Drupal</a
+                >, and more. But what if you aren’t on any of those platforms?
+                Below are the&nbsp;<strong
+                  >top 18 optimization tips we recommend, regardless of the
+                  platform</strong
+                >, if you are looking to optimize your site.
+              </p>
+              <p>
+                But before we dive into the tips there are a few tools you
+                should be aware of so that you can first&nbsp;<a
+                  href="https://www.keycdn.com/support/pinpoint-website-performance-issues"
+                  >pinpoint your website performance issues</a
+                >. If you know where your website is slowing down or
+                bottlenecking than you can re-adjust your priorities.
+              </p>
+              <p><strong>Test your website speed</strong></p>
+              <p>
+                First we recommend using a&nbsp;<a
+                  href="https://www.keycdn.com/blog/website-speed-test-tools"
+                  >website speed test tool</a
+                >&nbsp;to&nbsp;<strong
+                  >analyze the overall speed of your website.</strong
+                >&nbsp;We suggest using KeyCDN’s&nbsp;<a
+                  href="https://tools.keycdn.com/speed"
+                  >Website Speed Test</a
+                >&nbsp;tool or&nbsp;<a href="http://www.webpagetest.org/"
+                  >WebPageTest</a
+                >&nbsp;as both of these support HTTP/2. Firefox 36+ or Chrome
+                41+ is required. You will see more below about why we recommend
+                migrating to HTTPS to take advantage of HTTP/2.
+              </p>
+              <p><strong>Load test your website</strong></p>
+              <p>
+                Second, it is important to&nbsp;<strong
+                  >load test your website to see what might be causing
+                  bottlenecks</strong
+                >. Below are few tools which can help test your website. These
+                can also be very useful if you are trying to scale out a
+                platform.
+              </p>
+              <ul>
+                <li>
+                  <a href="https://www.spirent.com/products/cyberflood"
+                    >CyberFlood</a
+                  >: Security and performance testing on websites and
+                  applications.
+                </li>
+                <li>
+                  <a href="https://loadimpact.com/">Load Impact</a>: Automated
+                  and on demand performance testing for DevOps. Load test your
+                  website, web app, mobile app or API instantly with up to 1.2
+                  million concurrent users.
+                </li>
+                <li>
+                  <a href="https://loader.io/">Loader</a>: Load testing service
+                  that allows you to stress test your web-apps &amp; APIs with
+                  thousands of concurrent connections. Free up to 10,000
+                  clients.
+                </li>
+                <li>
+                  <a href="https://blazemeter.com/">BlazeMeter</a>: Run
+                  massively scalable, open source-based performance tests
+                  against all of your apps, and validate performance at every
+                  software delivery stage.
+                </li>
+              </ul>
+              <p>
+                If you are running a WordPress site there is a useful plugin,
+                such as&nbsp;<a
+                  href="https://wordpress.org/plugins/p3-profiler/"
+                  >P3</a
+                >, which can help pinpoint plugins that are slowing down your
+                site.
+              </p>
+              <p>
+                <strong
+                  >Calculate website performance optimization budget</strong
+                >
+              </p>
+              <p>
+                Jonathan Fielding has put together a great free little tool in
+                which you can&nbsp;<a href="http://www.performancebudget.io/"
+                  >calculate your performance budget</a
+                >. Simply input how fast in seconds you want your site to load,
+                and pick the connection speed.
+              </p>
+              <p>
+                On the next page you can adjust the sliders based on the CSS,
+                JS, Images, Video, and font usage on your website.
+              </p>
+              <p>
+                On the last page it gives you a performance budget breakdown and
+                estimated load times across the board for different connection
+                types. Again these are all estimates but it can be useful to see
+                how much spread there is between all the connection
+                speeds.&nbsp;<strong
+                  >Don’t forget to optimize for mobile and slower
+                  devices</strong
+                >.
+              </p>
+              <p><strong>Website performance optimization tips</strong></p>
+              <p>
+                Now that you have run some tests on your website to see where
+                the delay or load is, it is now time to start optimizing, follow
+                these optimization tips below.
+              </p>
+              <p><strong>1.Image optimization</strong></p>
+              <p>
+                We recently asked&nbsp;<a
+                  href="https://www.keycdn.com/blog/web-performance-advice"
+                  >20+ web performance experts to share their advice</a
+                >&nbsp;and mistakes they see people making. And guess what 46%
+                of them said should be the number one focus when it comes to
+                optimization? That’s right, image optimization! So now you’ve
+                heard it from the experts, don’t just take our word for it.
+              </p>
+              <p>
+                According to a 2016 report from HTTP Archive, on
+                average,&nbsp;<a
+                  href="http://httparchive.org/interesting.php#bytesperpage?ictd[master]=vid~720f2d5d-60be-46fc-92c4-1774ba093d21&amp;ictd[il583]=rlt~1441669636~land~2_3853_seo_aa73a52e6449ecff40e9a5c66e7bb93f"
+                  >64 percent of a website’s page weight</a
+                >&nbsp;is made up of images. &#8211; HTTP Archive
+              </p>
+              <p>
+                KeyCDN developed the&nbsp;<a
+                  href="https://www.keycdn.com/blog/smart-image-compression"
+                  >Optimus WordPress plugin</a
+                >&nbsp;along with an API which&nbsp;<strong
+                  >focuses on a combination of both lossless and lossy image
+                  compression</strong
+                >. If you utilize the API, it can be used with any platform. The
+                PHP library for the&nbsp;<a
+                  href="https://github.com/keycdn/php-optimus-api"
+                  >Optimus API is available on GitHub</a
+                >. If you are a developer feel free to contribute to the other
+                Optimus API libraries as well.
+              </p>
+              <p>
+                By using Optimus you can get rid of that Google PageSpeed
+                Insights recommendation:&nbsp;<em
+                  >By compressing … you could save 4.7 KB (30%) without
+                  losses.</em
+                >&nbsp;Another advantage of using Optimus is that it supports
+                conversion to the WebP format which was developed by Google.
+              </p>
+              <p>
+                According to Google, WebP lossless images are&nbsp;<a
+                  href="https://developers.google.com/speed/webp/docs/webp_lossless_alpha_study#results"
+                  >26% smaller</a
+                >&nbsp;than PNGs and&nbsp;<a
+                  href="https://developers.google.com/speed/webp/docs/webp_study"
+                  >25-34% smaller</a
+                >&nbsp;than JPEG images.
+              </p>
+              <p>
+                You can add the following snippet to your .htaccess file to
+                support the serving of WebP format instead of JPEG or PNG
+                images. Note: WebP is currently only supported in Google Chrome
+                and Opera.
+              </p>
+              <p>
+                &lt;IfModule mod_rewrite.c&gt;<br />
+                RewriteEngine On<br />
+                RewriteCond %{HTTP_ACCEPT} image/webp<br />
+                RewriteCond %{DOCUMENT_ROOT}/$1.webp -f<br />
+                RewriteRule ^(path/to/your/images.+)\.(jpe?g|png)$ $1.webp
+                [T=image/webp,E=accept:1]<br />
+                &lt;/IfModule&gt;<br />
+                &lt;IfModule mod_headers.c&gt;<br />
+                Header append Vary Accept env=REDIRECT_accept<br />
+                &lt;/IfModule&gt;<br />
+                AddType image/webp .webp
+              </p>
+              <p>
+                And if you are using WordPress you can use KeyCDN’s free
+                WordPress&nbsp;<a
+                  href="https://wordpress.org/plugins/cache-enabler/"
+                  >Cache Enabler</a
+                >&nbsp;plugin to serve up the WebP format automatically. Here
+                are some other third party tools you can also utilize for image
+                compression.
+              </p>
+              <p>
+                <strong
+                  >Image minify plugins for the automated task systems</strong
+                >
+              </p>
+              <ul>
+                <li>
+                  Grunt:&nbsp;<a
+                    href="https://www.npmjs.com/package/grunt-contrib-imagemin"
+                    >grunt-contrib-imagemin</a
+                  >
+                </li>
+                <li>
+                  Gulp:&nbsp;<a
+                    href="https://www.npmjs.com/package/gulp-imagemin/"
+                    >gulp-imagemin</a
+                  >
+                </li>
+              </ul>
+              <p><strong>Third party online tools</strong></p>
+              <ul>
+                <li>
+                  <a
+                    href="https://tinypng.com/?utm_source=KeyCDN&amp;utm_medium=link"
+                    >TinyPNG</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://kraken.io/?utm_source=KeyCDN&amp;utm_medium=link"
+                    >Kraken.io</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="http://www.jpegmini.com/?utm_source=KeyCDN&amp;utm_medium=link"
+                    >JPEGmini</a
+                  >&nbsp;(app available for OSX, iOS, Windows)
+                </li>
+              </ul>
+              <p><strong>Local tools</strong></p>
+              <ul>
+                <li>
+                  <a
+                    href="http://pngmini.com/?utm_source=KeyCDN&amp;utm_medium=link"
+                    >ImageAlpha (Mac)</a
+                  >
+                </li>
+              </ul>
+              <p>
+                Also make sure to take advantage of&nbsp;<a
+                  href="https://www.keycdn.com/blog/responsive-images"
+                  >responsive images</a
+                >
+                using HTML srcset and sizes attributes to serve different scaled
+                images based on the size of the display.
+              </p>
+              <p><strong>2.Reduce HTTP requests</strong></p>
+              <p>
+                When your browser fetches data from a server it does so using
+                HTTP (Hypertext Transfer Protocol). It is a request/response
+                between a client and a host. In general&nbsp;<strong
+                  >the more HTTP requests your web page makes the slower it will
+                  load</strong
+                >.
+              </p>
+              <p>
+                There are many ways you can reduce the number of requests such
+                as:
+              </p>
+              <ul>
+                <li>Inline your JavaScript (only if it is very small)</li>
+                <li>Using CSS Sprites</li>
+                <li>
+                  Reducing assets such as third party plugins that make a large
+                  number of external requests
+                </li>
+                <li>
+                  Don’t use third party frameworks unless they are absolutely
+                  needed
+                </li>
+                <li>Use less code!</li>
+                <li>
+                  Combining your CSS and JS files (with HTTP/2 concatenation is
+                  no longer as important)
+                </li>
+              </ul>
+              <p>
+                The number of requests a particular website must make varies
+                greatly from site to site. Running a site speed test will tell
+                you how many requests were needed in order to generate a
+                particular page.
+              </p>
+              <p>HTTP requests from KeyCDN Speed Test Tool</p>
+              <p>
+                <strong>First HTTP request cleanup example</strong
+                ><a
+                  href="https://www.keycdn.com/blog/website-performance-optimization#first-http-request-cleanup-example"
+                  ><strong>#</strong></a
+                >
+              </p>
+              <p>
+                Here is an example of a common additional HTTP that can be
+                removed. We have seen a lot of people enable remarketing and
+                advertising in Google Analytics, and yet they don’t actually use
+                this function. Typically users have a tendency to click enable
+                on everything. By enabling this feature you will actually have a
+                second HTTP request for this
+                URL&nbsp;https://stats.g.doubleclick.net/r/collect&nbsp;which
+                then produces a 302 redirect in your response header.
+              </p>
+              <p>
+                If you are not using these features you can disable this by
+                turning off “Remarketing” and “Advertising Reporting Features”
+                under “Data Collection” in your Google Analytics settings.
+              </p>
+              <p>
+                Or you can manually disable them by adding the following to your
+                Google Analytics script.
+              </p>
+              <p>
+                ga(&#8216;set&#8217;, &#8216;displayFeaturesTask&#8217;, null);
+              </p>
+              <p>
+                After disabling this you will no longer have that 2nd HTTP
+                request and your main script will no longer have a 302 redirect.
+                This is just one example of an HTTP request cleanup.
+              </p>
+              <p><strong>Second HTTP request cleanup example</strong></p>
+              <p>
+                Another example of an HTTP request cleanup is if your running
+                WordPress, by default, it includes an additional JavaScript
+                file&nbsp;wp-emoji-release.min.js?ver=4.3.1&nbsp;in your header.
+                Emojis are great and all, but are they really needed? It is
+                worth the extra weight and time from the additional JavaScript
+                file? Probably not. You can disable Emojis in WordPress by
+                adding the following code to your
+                your&nbsp;functions.php&nbsp;file.
+              </p>
+              <p>
+                /**<br />
+                * Disable the emoji&#8217;s<br />
+                */
+              </p>
+              <p>
+                function disable_emojis() {<br />
+                remove_action( &#8216;wp_head&#8217;,
+                &#8216;print_emoji_detection_script&#8217;, 7 );<br />
+                remove_action( &#8216;admin_print_scripts&#8217;,
+                &#8216;print_emoji_detection_script&#8217; );<br />
+                remove_action( &#8216;wp_print_styles&#8217;,
+                &#8216;print_emoji_styles&#8217; );<br />
+                remove_action( &#8216;admin_print_styles&#8217;,
+                &#8216;print_emoji_styles&#8217; );<br />
+                remove_filter( &#8216;the_content_feed&#8217;,
+                &#8216;wp_staticize_emoji&#8217; );<br />
+                remove_filter( &#8216;comment_text_rss&#8217;,
+                &#8216;wp_staticize_emoji&#8217; );<br />
+                remove_filter( &#8216;wp_mail&#8217;,
+                &#8216;wp_staticize_emoji_for_email&#8217; );<br />
+                add_filter( &#8216;tiny_mce_plugins&#8217;,
+                &#8216;disable_emojis_tinymce&#8217; );<br />
+                }
+              </p>
+              <p>
+                add_action( &#8216;init&#8217;, &#8216;disable_emojis&#8217; );
+              </p>
+              <p>
+                /**<br />
+                * Filter function used to remove the tinymce emoji plugin.<br />
+                *<br />
+                * @param array $plugins<br />
+                * @return array Difference betwen the two arrays<br />
+                */
+              </p>
+              <p>
+                function disable_emojis_tinymce( $plugins ) {<br />
+                if ( is_array( $plugins ) ) {<br />
+                return array_diff( $plugins, array( &#8216;wpemoji&#8217; )
+                );<br />
+                } else {<br />
+                return array();<br />
+                }<br />
+                }
+              </p>
+              <p>
+                Or you can also use the free&nbsp;<a
+                  href="https://wordpress.org/support/plugin/disable-emojis"
+                  >Disable Emojis</a
+                >&nbsp;plugin.
+              </p>
+              <p>
+                <strong
+                  >Don’t let things generate requests if they aren’t being
+                  used</strong
+                >! Also don’t just optimize your homepage, the rest of your site
+                deserves attention too.
+              </p>
+              <p><strong>3.Minify CSS and JavaScript</strong></p>
+              <p>
+                Minification of resources means&nbsp;<strong
+                  >removing unnecessary characters</strong
+                >&nbsp;from your HTML, JavaScript, and CSS that are not required
+                to load, such as:
+              </p>
+              <ul>
+                <li>White space characters</li>
+                <li>New line characters</li>
+                <li>Comments</li>
+                <li>Block delimiters</li>
+              </ul>
+              <p>
+                This speeds up your load times as it reduces the amount of code
+                that has to be requested from the server.
+              </p>
+              <p>
+                <strong>Minify plugins for the automated task systems</strong
+                ><a
+                  href="https://www.keycdn.com/blog/website-performance-optimization#minify-plugins-for-the-automated-task-systems"
+                  ><strong>#</strong></a
+                >
+              </p>
+              <p><strong>JavaScript</strong></p>
+              <ul>
+                <li>
+                  Grunt:&nbsp;<a
+                    href="https://www.npmjs.com/package/grunt-contrib-uglify/?utm_source=KeyCDN&amp;utm_medium=link"
+                    >grunt-contrib-uglify</a
+                  >
+                </li>
+                <li>
+                  Gulp:&nbsp;<a
+                    href="https://www.npmjs.com/package/gulp-uglify/?utm_source=KeyCDN&amp;utm_medium=link"
+                    >gulp-uglify</a
+                  >
+                </li>
+              </ul>
+              <p><strong>CSS</strong></p>
+              <ul>
+                <li>
+                  Grunt:&nbsp;<a
+                    href="https://www.npmjs.com/package/grunt-contrib-cssmin/?utm_source=KeyCDN&amp;utm_medium=link"
+                    >grunt-contrib-cssmin</a
+                  >
+                </li>
+                <li>
+                  Gulp:&nbsp;<a
+                    href="https://www.npmjs.com/package/gulp-minify-css/?utm_source=KeyCDN&amp;utm_medium=link"
+                    >gulp-minify-css</a
+                  >
+                </li>
+              </ul>
+              <p>
+                If you are using WordPress you can also minify your CSS and
+                JavaScript with the&nbsp;<a
+                  href="https://wordpress.org/plugins/cache-enabler/"
+                  >Cache Enabler</a
+                >
+                plugin.
+              </p>
+              <p>
+                <strong
+                  >4.Critical path and render blocking resources (CSS +
+                  JS)</strong
+                >
+              </p>
+              <p>
+                When it comes to analyzing the speed of your web pages you
+                always need to take into consideration what might be&nbsp;<a
+                  href="https://www.keycdn.com/blog/blocking-the-dom"
+                  >blocking the DOM</a
+                >, causing delays in your page load times. These are also
+                referred to as&nbsp;<strong>render blocking resources</strong>,
+                such as HTML, CSS (this can include web fonts), and JavaScript.
+                Here are a few recommendations on how to prevent your CSS and
+                JavaScript from blocking the DOM by optimizing your critical
+                rendering path.
+              </p>
+              <p><strong>CSS</strong></p>
+              <ol>
+                <li>Properly call your CSS files</li>
+                <li>
+                  Use&nbsp;<a
+                    href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css"
+                    >media queries</a
+                  >&nbsp;to mark some CSS resources as non-render blocking
+                </li>
+                <li>
+                  Lessen the amount of CSS files (concatenate your CSS files
+                  into one file)
+                </li>
+                <li>
+                  Minify Your CSS (remove extra spaces, characters, comments,
+                  etc)
+                </li>
+                <li>Use less CSS overall</li>
+              </ol>
+              <p><strong>JavaScript</strong></p>
+              <p>
+                When it comes to JavaScript there are some best practices to
+                always keep in mind.
+              </p>
+              <ol>
+                <li>
+                  Move your scripts to the bottom of the page right before
+                  your&nbsp;&lt;/body&gt;&nbsp;tag.
+                </li>
+                <li>
+                  Use the async or defer directive to avoid render blocking.
+                </li>
+                <li>
+                  Concatenate your JS files into one file (with HTTP/2 this is
+                  no longer as important)
+                </li>
+                <li>
+                  Minify your JavaScript (remove extra spaces, characters, etc)
+                </li>
+                <li>Inline your JavaScript if it is small</li>
+              </ol>
+              <p>
+                <strong
+                  >Async allows the script to be downloaded in the background
+                  without blocking</strong
+                >. Then, the moment it finishes downloading, rendering is
+                blocked and that script executes. Render resumes when the script
+                has executed.
+              </p>
+              <p>
+                &lt;script async src=&#8221;foobar.js&#8221;&gt;&lt;/script&gt;
+              </p>
+              <p>
+                Your other option is to defer JavaScript. This directive does
+                the same thing as async, except it guarantees that scripts
+                execute in the order they were specified on the page. Patrick
+                Sexton has a good example of&nbsp;<a
+                  href="https://varvy.com/pagespeed/defer-loading-javascript.html"
+                  >how to defer loading of JavaScript</a
+                >&nbsp;properly.
+              </p>
+              <p>
+                We also discuss your options for web fonts further down in this
+                post.
+              </p>
+              <p>
+                <strong
+                  >5.Reduce latency with a content delivery network
+                  (CDN)</strong
+                >
+              </p>
+              <p>
+                If you are not familiar with a content delivery network (CDN) we
+                highly recommend you read our&nbsp;<a
+                  href="https://www.keycdn.com/what-is-a-cdn"
+                  >complete CDN guide</a
+                >. Besides speeding up the delivery of your assets around the
+                globe a&nbsp;<strong
+                  >CDN also can dramatically decrease your latency</strong
+                >.
+              </p>
+              <p>
+                50% of your 1-second page load time budget on mobile is taken up
+                by network latency overhead. &#8211;&nbsp;<a
+                  href="https://blog.radware.com/applicationdelivery/applicationaccelerationoptimization/2014/01/55-web-performance-stats-youll-want-to-know/"
+                  >WPT</a
+                >
+              </p>
+              <p>
+                We ran a test to show you the difference in latency times with
+                and without a CDN implemented. This is simply from a
+                connectivity perspective. We used KeyCDN’s&nbsp;<a
+                  href="https://tools.keycdn.com/ping"
+                  >ping test tool</a
+                >&nbsp;which conveniently allows us to&nbsp;<strong
+                  >simultaneously test from the following 10 locations</strong
+                >. And here are the results between the two.
+              </p>
+              <table width="551">
+                <thead>
+                  <tr>
+                    <td><strong>Server (POP) location</strong></td>
+                    <td><strong>No CDN RTT (ms)</strong></td>
+                    <td><strong>KeyCDN RTT (ms)</strong></td>
+                    <td><strong>Difference %</strong></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>New York, US</td>
+                    <td>36.908</td>
+                    <td>18.096</td>
+                    <td>&#8211; 50.97%</td>
+                  </tr>
+                  <tr>
+                    <td>Dallas, US</td>
+                    <td>0.751</td>
+                    <td>1.138</td>
+                    <td>+ 51.53%</td>
+                  </tr>
+                  <tr>
+                    <td>San Francisco, US</td>
+                    <td>39.645</td>
+                    <td>18.900</td>
+                    <td>&#8211; 52.33%</td>
+                  </tr>
+                  <tr>
+                    <td>Frankfurt, DE</td>
+                    <td>123.072</td>
+                    <td>3.734</td>
+                    <td>&#8211; 96.97%</td>
+                  </tr>
+                  <tr>
+                    <td>London, UK</td>
+                    <td>127.555</td>
+                    <td>4.548</td>
+                    <td>&#8211; 96.43%</td>
+                  </tr>
+                  <tr>
+                    <td>Paris, FR</td>
+                    <td>112.417</td>
+                    <td>.689</td>
+                    <td>&#8211; 98.5%</td>
+                  </tr>
+                  <tr>
+                    <td>Amsterdam, NL</td>
+                    <td>118.418</td>
+                    <td>10.364</td>
+                    <td>&#8211; 91.25%</td>
+                  </tr>
+                  <tr>
+                    <td>Singapore, SG</td>
+                    <td>202.682</td>
+                    <td>2.002</td>
+                    <td>&#8211; 99.01%</td>
+                  </tr>
+                  <tr>
+                    <td>Sydney, AU</td>
+                    <td>191.848</td>
+                    <td>0.705</td>
+                    <td>&#8211; 99.63%</td>
+                  </tr>
+                  <tr>
+                    <td>Tokyo, JP</td>
+                    <td>130.804</td>
+                    <td>3.379</td>
+                    <td>&#8211; 97.42%</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p>
+                <strong
+                  >The latency between our origin server (without a CDN) and our
+                  POPs (with a CDN) on average is decreased by 73%!</strong
+                >&nbsp;See the full details of our&nbsp;<a
+                  href="https://www.keycdn.com/blog/website-latency"
+                  >website latency test</a
+                >.
+              </p>
+              <p>
+                You can implement a CDN on almost any platform that exists as
+                KeyCDN has over 25 different integrations. Here is a quick list
+                of our integration guides.
+              </p>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.keycdn.com/support/wordpress-cdn-integration-with-cdn-enabler"
+                    >WordPress integration</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.keycdn.com/support/integrations/cms"
+                    >CMS integration guides</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.keycdn.com/support/integrations/frameworks"
+                    >Framework integration guides</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.keycdn.com/support/aws-s3-cdn-integration"
+                    >AWS S3 CDN integration</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.keycdn.com/support/google-cloud-storage-cdn-integration"
+                    >Google Cloud Storage CDN integration</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.keycdn.com/support/cdn-integration"
+                    >Custom CDN integration</a
+                  >
+                </li>
+              </ul>
+              <p><strong>6.TTFB</strong></p>
+              <p>
+                Time to first byte (TTFB) is the&nbsp;<strong
+                  >measurement of the responsiveness of a web server</strong
+                >. Basically it is the time it takes your browser to start
+                receiving information after it has requested it from the server.
+                A website’s TTFB is calculated as:
+              </p>
+              <p>
+                <strong
+                  >HTTP request time + Process request time + HTTP response
+                  time</strong
+                >
+              </p>
+              <p>
+                TTFB is shown as the green waiting bar in&nbsp;<a
+                  href="https://www.keycdn.com/blog/chrome-devtools"
+                  >Chrome DevTools</a
+                >.
+              </p>
+              <p>
+                By using a CDN, a fast web host, and a reliable DNS provider you
+                can dramatically reduce your overall TTFB. Read more
+                about&nbsp;<a
+                  href="https://www.keycdn.com/blog/a-slow-website-time-to-first-byte-ttfb"
+                  >time to first byte</a
+                >
+                and time to last byte.
+              </p>
+              <p><strong>7.Avoid 301 redirects</strong></p>
+              <p>
+                Redirects are performance killers. Avoid them whenever possible.
+                A redirect will generate additional round trip times (RTT) and
+                therefore quickly doubles the time that is required to load the
+                initial HTML document before the browser even starts to load
+                other assets.
+              </p>
+              <p><strong>8.Caching</strong></p>
+              <p><strong>Browser cache</strong></p>
+              <p>
+                Leveraging the browser cache is crucial for assets that are
+                rarely changing. It is recommended to have a max-age of 7 days
+                in such cases. There are different types of HTTP headers such
+                as:
+              </p>
+              <ol>
+                <li>Cache-Control</li>
+                <li>Pragma</li>
+                <li>Expires</li>
+              </ol>
+              <p>
+                Learn more about different control mechanisms in this
+                article:&nbsp;<a
+                  href="https://www.keycdn.com/blog/http-cache-headers"
+                  >A Guide to HTTP Cache Headers</a
+                >.
+              </p>
+              <p>
+                One of the most important HTTP cache headers is probably
+                Cache-Control which is a header comprised of a set of directives
+                that allow you define when / how a response should be cached and
+                for how long. HTTP caching occurs when a browser stores copies
+                of resources for faster access. This can be used with your HTTPS
+                implementation. See our full guide on&nbsp;<a
+                  href="https://www.keycdn.com/support/cache-control"
+                  >how to use the cache-control header directives</a
+                >.
+              </p>
+              <p>
+                If you are using KeyCDN you can add or modify the Expires and
+                Cache-Control response header fields that are sent to the
+                client. The&nbsp;<strong>Expires</strong>&nbsp;feature is
+                available within the KeyCDN dashboard by going to the Zone
+                settings.
+              </p>
+              <ul>
+                <li><strong>-1</strong>&nbsp;Cache-Control: no-cache</li>
+                <li>
+                  <strong>0</strong>&nbsp;Push Zone: disabled / Pull Zone: as
+                  received from the origin (header honoring)
+                </li>
+                <li>
+                  <strong>&gt;0</strong>&nbsp;Cache-Control: max-age=<em>t</em>,
+                  where t is the time specified in the directive in minutes
+                  converted to seconds
+                </li>
+              </ul>
+              <p>
+                This setting overwrites the value received from the origin in
+                case of a Pull Zone.
+                The&nbsp;<em>expire</em>&nbsp;value&nbsp;<strong
+                  >only impacts browser cache and not the KeyCDN cache</strong
+                >.
+              </p>
+              <p><strong>Server cache</strong></p>
+              <p>
+                There are different forms of server-side caching when it comes
+                to website performance optimization. This is usually done on
+                higher traffic sites.&nbsp;<a
+                  href="https://www.keycdn.com/support/using-a-varnish-cdn-stack-with-keycdn"
+                  >Varnish cache</a
+                >&nbsp;is one example which can be very powerful when combined
+                with a caching plugin, and a CDN. You can also utilize caching
+                plugins which usually exist for each CMS platform.
+              </p>
+              <ul>
+                <li>
+                  See our&nbsp;<a
+                    href="https://www.keycdn.com/blog/speed-up-wordpress#2-utilize-caching"
+                    >WordPress caching guide</a
+                  >
+                </li>
+                <li>
+                  See our&nbsp;<a
+                    href="https://www.keycdn.com/blog/speed-up-drupal#3-utilize-caching"
+                    >Drupal caching guide</a
+                  >
+                </li>
+                <li>
+                  See our&nbsp;<a
+                    href="https://www.keycdn.com/blog/speed-up-magento#3-utilize-caching"
+                    >Magento caching guide</a
+                  >
+                </li>
+                <li>
+                  See our&nbsp;<a
+                    href="https://www.keycdn.com/blog/speed-up-xenforo#2-utilize-caching"
+                    >XenForo caching guide</a
+                  >
+                </li>
+              </ul>
+              <p><strong>9.Prefetch and preconnect</strong></p>
+              <p>
+                <strong>Domain name prefetching</strong>&nbsp;is a good solution
+                to already resolve domain names before a user actually follows a
+                link. Here an example how to implement it in the HEAD section of
+                your HTML:
+              </p>
+              <p>
+                &lt;link rel=&#8221;dns-prefetch&#8221;
+                href=&#8221;//www.example.com&#8221;&gt;
+              </p>
+              <p>
+                The double slashes indicate that the URL begins with a host name
+                (this is specified in the&nbsp;<a
+                  href="http://www.ietf.org/rfc/rfc1808.txt"
+                  >RFC1808</a
+                >).
+              </p>
+              <p>
+                <strong
+                  >Preconnect allows the browser to set up early
+                  connections</strong
+                >&nbsp;before an HTTP request is actually sent to the server.
+                Connections such as DNS Lookup, TCP Handshake, and TLS
+                negotiation can be initiated beforehand, eliminating roundtrip
+                latency for those connections and saving time for users.
+              </p>
+              <p>
+                The example below shows what it looks like to enable preconnect
+                for the Zone Alias link for KeyCDN.
+              </p>
+              <p>
+                &lt;link href=&#8217;https://cdn.keycdn.com&#8217;
+                rel=&#8217;preconnect&#8217; crossorigin&gt;
+              </p>
+              <p>
+                Read our in-depth article on&nbsp;<a
+                  href="https://www.keycdn.com/support/preconnect"
+                  >preconnect</a
+                >.
+              </p>
+              <p><strong>10.HTTP/2</strong></p>
+              <p>
+                Jeff Atwood, the co-founder of Stack Exchange and Discourse
+                answered in our&nbsp;<a
+                  href="https://www.keycdn.com/blog/web-performance-advice"
+                  >web perf questions</a
+                >&nbsp;that the number one piece of advice he would give is
+                “<strong
+                  >HTTP/2 adoption across the board &#8211; huge improvements
+                  for everyone.</strong
+                >” We love Jeff’s answer as we definitely agree that HTTP/2 is
+                the future and there are huge performance benefits.
+              </p>
+              <p>
+                Go, the programming language, has a great example of when you
+                are dealing with a lot more images on a page and how&nbsp;<a
+                  href="https://http2.golang.org/gophertiles"
+                  >HTTP/2 far exceeds that of HTTP/1</a
+                >.
+              </p>
+              <p>
+                To enable HTTP/2 all that is required is an SSL certificate (it
+                requires TLS) and a server that supports HTTP/2. You can use
+                KeyCDN’s&nbsp;<a href="https://tools.keycdn.com/http2-test"
+                  >HTTP/2 test tool</a
+                >&nbsp;to see if you are supported. And KeyCDN now offer’s free
+                SSL certificates with our&nbsp;<a
+                  href="https://www.keycdn.com/blog/free-ssl-certificates"
+                  >Let’s Encrypt integration</a
+                >. Haven’t migrated to HTTPS yet? We have also have an&nbsp;<a
+                  href="https://www.keycdn.com/blog/http-to-https"
+                  >HTTP to HTTPS migration guide</a
+                >.
+              </p>
+              <p><strong>11.PHP7 and HHVM</strong></p>
+              <p>
+                Keeping the various components of a web server up to date is
+                critical for reasons such as security patches, performance
+                upgrades, and so on. If you are using PHP, upgrading to PHP7 can
+                help greatly improve performance as compared to PHP 5.6. As well
+                as taking advantage of HHVM.
+              </p>
+              <p>
+                Based on the results from the above image, PHP7 is able to
+                handle 204 requests per seconds compared to PHP 5.6’s 96 in
+                WordPress 3.6 Additionally, PHP7 is able to handle 183 more
+                requests than PHP5.6 in WordPress 4.1.
+              </p>
+              <p>
+                HHVM, an open source VM used by websites like Facebook also been
+                shown to produce good results. When testing PHP 7 and HHVM
+                Kinsta got slightly different results from Zend. From their
+                conclusions&nbsp;<a
+                  href="https://kinsta.com/blog/the-definitive-php-7-final-version-hhvm-benchmark/"
+                  >HHVM wins hands down</a
+                >.
+              </p>
+              <p>
+                A lot of these test results will vary due to environments,
+                hardware, CMS platforms tested, versions, etc. But either
+                way,&nbsp;<strong
+                  >both PHP7 and HHVM can be great ways to improve the
+                  performance of your website</strong
+                >.
+              </p>
+              <p><strong>12.Web font performance</strong></p>
+              <p>
+                According to the&nbsp;<a
+                  href="http://httparchive.org/trends.php#perFonts"
+                  >HTTP Archive</a
+                >,&nbsp;<strong
+                  >60% of websites are now using custom fonts</strong
+                >. Which is over an 850% increase since 2011. The disadvantages
+                of web fonts, such as Google Fonts, are that they add extra HTTP
+                requests to external resources. Web fonts are also render
+                blocking. Below are some recommendations for better web font
+                performance.
+              </p>
+              <ol>
+                <li>Prioritize based on browser support</li>
+                <li>Choose only the styles you need</li>
+                <li>Keep character sets down to a minimum</li>
+                <li>Host fonts locally or prefetch</li>
+                <li>Store in LocalStorage with Base64 Encoding</li>
+              </ol>
+              <p>
+                You can see an example of each method above in our post on
+                analyzing&nbsp;<a
+                  href="https://www.keycdn.com/blog/web-font-performance"
+                  >web font performance</a
+                >. Georgia is a great system font that comes to mind that looks
+                great and makes for easy readability.
+              </p>
+              <p>
+                You can also&nbsp;<a
+                  href="https://www.keycdn.com/blog/google-fonts-cdn"
+                  >move your Google Fonts to your CDN</a
+                >. We ran our own comparison between using Google’s CDN and
+                KeyCDN, and it was faster to use KeyCDN. Why? Because it reduces
+                the number of HTTP requests, DNS lookups, lets you take
+                advantage of a single HTTP/2 connection, and have more control
+                over caching.
+              </p>
+              <table width="556">
+                <thead>
+                  <tr>
+                    <td><strong>Speed test</strong></td>
+                    <td><strong>Google CDN (ms)</strong></td>
+                    <td><strong>KeyCDN (ms)</strong></td>
+                    <td><strong>Winner</strong></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>WebPageTest Load Time</td>
+                    <td>1871ms</td>
+                    <td>1815ms</td>
+                    <td>KeyCDN</td>
+                  </tr>
+                  <tr>
+                    <td>WebPageTest Fully Loaded</td>
+                    <td>1929ms</td>
+                    <td>1862ms</td>
+                    <td>KeyCDN</td>
+                  </tr>
+                  <tr>
+                    <td>Pingdom Load Time</td>
+                    <td>355ms</td>
+                    <td>324ms</td>
+                    <td>KeyCDN</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p><strong>13.Hotlink protection</strong></p>
+              <p>
+                Hotlink protection refers to restricting HTTP referrers in order
+                to prevent others from embedding your assets on other websites.
+                Hotlink protection will save you bandwidth by&nbsp;<strong
+                  >prohibiting other sites from displaying your images</strong
+                >.
+              </p>
+              <p>
+                Example: Your site URL is&nbsp;www.domain.com. To stop
+                hotlinking of your images from other sites and display a
+                replacement image called&nbsp;donotsteal.jpg&nbsp;from an image
+                host, place this code in your&nbsp;.htaccess&nbsp;file:
+              </p>
+              <p>
+                RewriteEngine On<br />
+                RewriteCond %{HTTP_REFERER} !^http://(.+\.)?domain\.com/ [NC]<br />
+                RewriteCond %{HTTP_REFERER} !^$<br />
+                RewriteRule .*\.(jpe?g|gif|bmp|png)$
+                http://i.imgur.com/donotsteal.gif [L]
+              </p>
+              <p>
+                KeyCDN also has an easy way to enable hotlink protection to
+                protect your CDN bandwidth. See our tutorial on how to&nbsp;<a
+                  href="https://www.keycdn.com/support/create-a-zone-referrer"
+                  >create a Zone Referrer</a
+                >.
+              </p>
+              <p><strong>14.Enable Gzip compression</strong></p>
+              <p>
+                Gzip is another form of compression which compresses web pages,
+                CSS, and JavaScript at the server level before sending them over
+                to the browser. This website performance optimization is easy to
+                implement and can make a big difference.
+              </p>
+              <p><strong>Apache</strong></p>
+              <p>
+                You can enable compression by adding the following to
+                your&nbsp;.htaccess&nbsp;file.
+              </p>
+              <p>&lt;IfModule mod_deflate.c&gt;</p>
+              <p>
+                # Compress HTML, CSS, JavaScript, Text, XML and fonts<br />
+                AddOutputFilterByType DEFLATE application/javascript<br />
+                AddOutputFilterByType DEFLATE application/rss+xml<br />
+                AddOutputFilterByType DEFLATE application/vnd.ms-fontobject<br />
+                AddOutputFilterByType DEFLATE application/x-font<br />
+                AddOutputFilterByType DEFLATE application/x-font-opentype<br />
+                AddOutputFilterByType DEFLATE application/x-font-otf<br />
+                AddOutputFilterByType DEFLATE application/x-font-truetype<br />
+                AddOutputFilterByType DEFLATE application/x-font-ttf<br />
+                AddOutputFilterByType DEFLATE application/x-javascript<br />
+                AddOutputFilterByType DEFLATE application/xhtml+xml<br />
+                AddOutputFilterByType DEFLATE application/xml<br />
+                AddOutputFilterByType DEFLATE font/opentype<br />
+                AddOutputFilterByType DEFLATE font/otf<br />
+                AddOutputFilterByType DEFLATE font/ttf<br />
+                AddOutputFilterByType DEFLATE image/svg+xml<br />
+                AddOutputFilterByType DEFLATE image/x-icon<br />
+                AddOutputFilterByType DEFLATE text/css<br />
+                AddOutputFilterByType DEFLATE text/html<br />
+                AddOutputFilterByType DEFLATE text/javascript<br />
+                AddOutputFilterByType DEFLATE text/plain<br />
+                AddOutputFilterByType DEFLATE text/xml
+              </p>
+              <p>
+                # Remove browser bugs (only needed for really old browsers)<br />
+                BrowserMatch ^Mozilla/4 gzip-only-text/html<br />
+                BrowserMatch ^Mozilla/4\.0[678] no-gzip<br />
+                BrowserMatch \bMSIE !no-gzip !gzip-only-text/html<br />
+                Header append Vary User-Agent<br />
+                &lt;/IfModule&gt;
+              </p>
+              <p><strong>Nginx</strong></p>
+              <p>
+                You can enable compression by adding the following to
+                your&nbsp;nginx.conf&nbsp;file.
+              </p>
+              <p>
+                gzip on;&nbsp;gzip_comp_level 2;&nbsp;gzip_http_version
+                1.0;&nbsp;gzip_proxied any;&nbsp;gzip_min_length
+                1100;&nbsp;gzip_buffers 16 8k;&nbsp;gzip_types text/plain
+                text/html text/css application/x-javascript text/xml
+                application/xml application/xml+rss
+                text/javascript;&nbsp;gzip_disable &#8220;MSIE
+                [1-6].(?!.*SV1)&#8221;;&nbsp;gzip_vary on;
+              </p>
+              <p><strong>15.Infrastructure</strong></p>
+              <p>
+                Having a fast web host is equally as important as any website
+                performance optimization you could make, as it is the backbone
+                of your site. Stay away from cheap shared hosting. We suggest
+                going with a VPS or if you are running WordPress or Drupal, a
+                managed host, depending upon your level of expertise and time.
+              </p>
+              <p><strong>VPS</strong></p>
+              <p>
+                <a href="https://m.do.co/c/eb1e6a3d8243">DigitalOcean</a
+                >&nbsp;is a great cloud VPS provider and you can get started
+                running your website for as little as $5/month. They feature
+                SSDs, 1Gbps network, a dedicated IP address, and you can easily
+                scale up or down in a matter of seconds.
+              </p>
+              <p>
+                <a
+                  href="https://www.linode.com/?r=550fde4fe78abb8e7a4c1ba2c7180832bb627800"
+                  >Linode</a
+                >&nbsp;is also another good choice if you are looking for a
+                cloud VPS. They have plans starting at $10/month and all feature
+                SSDs, API, CLI, and easy scaling across 8 datacenters in 3
+                different regions.
+              </p>
+              <p>
+                <a href="http://www.vultr.com/?ref=6826566">Vultr</a>&nbsp;is
+                slightly newer to the VPS game, but they provide very fast and
+                stable servers throughout their 14 different locations. A newer
+                feature they now offer is DDoS mitigation service.
+              </p>
+              <p><strong>Managed hosting</strong></p>
+              <p>
+                For those less tech savvy a managed host might be a better
+                solution. Yes, you will pay more, but depending on the size of
+                your business and how important your time is, the price
+                sometimes outweighs the cost.
+              </p>
+              <p>
+                Here are some popular managed WordPress hosts that focus on high
+                performance:
+              </p>
+              <ul>
+                <li><a href="https://kinsta.com/">Kinsta</a></li>
+                <li><a href="https://pagely.com/">Pagely</a></li>
+                <li>
+                  <a href="https://raidboxes.de/">Raidboxes</a>&nbsp;(German)
+                </li>
+                <li>
+                  <a href="https://www.mittwald.de/wordpress-hosting"
+                    >Mittwald</a
+                  >&nbsp;(German)
+                </li>
+              </ul>
+              <p>Here are some popular managed Drupal hosts:</p>
+              <ul>
+                <li>
+                  <a href="https://pantheon.io/features/drupal-hosting"
+                    >Pantheon</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.rochen.com/drupal-hosting/">Rochen</a>
+                </li>
+              </ul>
+              <p><strong>16.Fix 404 errors</strong></p>
+              <p>
+                Any missing file generates a 404 HTTP error. Depending upon the
+                platform you are running 404 errors can be quite taxing on your
+                server. For example,&nbsp;<strong
+                  >Drupal has very expensive 404 errors</strong
+                >. On an ‘average’ site with an ‘average’ module load, you can
+                be looking at 60-100MB of memory being consumed on your server
+                to deliver a 404.
+              </p>
+              <p>
+                We don’t recommend installing plugins or modules to check for
+                404s, instead we advise you occasionally run your website
+                through an external service such as the “<a
+                  href="http://www.brokenlinkcheck.com/"
+                  >Online Broken Link Checker</a
+                >” or a tool like&nbsp;<a
+                  href="http://www.screamingfrog.co.uk/seo-spider/"
+                  >Screaming Frog</a
+                >. This ensures that you aren’t wasting any of your server’s
+                resources on this task. You can also see these in Google Search
+                Console.
+              </p>
+              <p><strong>17.Serve scaled images</strong></p>
+              <p>
+                You should always upload your images at scale and not rely on
+                CSS to size them down. If you do you will run into this little
+                Google PageSpeed recommendation:&nbsp;<em
+                  >Optimization suggestion: “By compressing and adjusting the
+                  size of … you can save 5.8 KB (51%).</em
+                >
+              </p>
+              <p>
+                This recommendation refers to your images being scaled down by
+                your browser. For example, maybe the image you upload has a
+                400px width, but the column it was placed in is only 300px wide.
+                This results in your image being scaled down to 300px due to CSS
+                so that it matches the column size. It is better to always
+                upload images at scale and also upload multiple resolutions of
+                your images and serve the right resolution for the right device.
+              </p>
+              <p>
+                Note: It is not always possible to avoid scaling with CSS,
+                especially if you are working with high resolution retina
+                devices.
+              </p>
+              <p><strong>18.Database optimization</strong></p>
+              <p>
+                And last but not least is database optimization. Whether it is
+                cleaning out old unused tables or creating indexes for faster
+                access there are always things that can be optimized.
+              </p>
+              <p><strong>MySQL tuning</strong></p>
+              <p>
+                Optimizing MySQL is also very important. Unfortunately this is
+                very specific to your environment and your setup so we can’t
+                provide recommended configurations. The MySQL/MariaDB
+                configuration file is normally located in&nbsp;/etc/my.cnf. Here
+                are a few settings though to keep an eye on.
+              </p>
+              <ul>
+                <li>tmp_table_size</li>
+                <li>query_cache_type</li>
+                <li>query_cache_size</li>
+                <li>query_cache_size</li>
+                <li>join_buffer_size</li>
+                <li>max_heap_table_size</li>
+              </ul>
+              <p>
+                A highly recommended tool is the&nbsp;<a
+                  href="http://mysqltuner.com/"
+                  >MySQL Tuner</a
+                >&nbsp;script. It is read-only and won’t make configuration
+                changes. It will give you an overview of your server’s
+                performance and make some basic recommendations about
+                improvements that you can make after it completes. Here are a
+                couple other tools you can use as well:
+              </p>
+              <ul>
+                <li>
+                  <a href="https://launchpad.net/mysql-tuning-primer"
+                    >MySQL tuning primer script</a
+                  >
+                </li>
+                <li><a href="https://www.phpmyadmin.net/">phpMyAdmin</a></li>
+                <li>
+                  See our&nbsp;<a
+                    href="https://www.keycdn.com/blog/speed-up-wordpress#4-optimize-wordpress-database"
+                    >WordPress database optimizations</a
+                  >
+                </li>
+                <li>
+                  See our&nbsp;<a
+                    href="https://www.keycdn.com/blog/speed-up-joomla#7-clean-up-joomla-db"
+                    >Joomla database optimizations</a
+                  >
+                </li>
+                <li>
+                  See our&nbsp;<a
+                    href="https://www.keycdn.com/blog/speed-up-magento#8-clean-up-magento-database-logs"
+                    >Magento database optimizations</a
+                  >
+                </li>
+              </ul>
+              <p><strong>Summary</strong></p>
+              <p>
+                As you can see there are hundreds of different website
+                performance optimization tweaks you can implement to further
+                improve on the delivery and speed of your content. From image
+                optimization, to implementing a CDN, to browser and server
+                caching, taking advantage of HTTP/2, Gzip, PHP7, HHVM, and much
+                more!
+              </p>
+              <p>
+                Are there some website performance optimization tips that we
+                left out? If so feel free to let us know below.
+              </p>
+              <p>
+                <a
+                  href="https://www.keycdn.com/blog/website-performance-optimization"
+                  >Source</a
+                >
+              </p>
+              <div
+                class="yarpp yarpp-related yarpp-related-website yarpp-template-list"
+              >
+                <!-- YARPP List -->
+                <div class="related-posts">
+                  <h3>RELATED POSTS</h3>
+                  <ol>
+                    <li>
+                      <a
+                        href="https://abdurochmansidik.my.id/web-design-is-95-typography/"
+                        rel="bookmark"
+                        title="Web Design is 95% Typography"
+                        >Web Design is 95% Typography</a
+                      >
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <aside class="about-author">
+            <h3>WRITTEN BY</h3>
+
+            <div class="author-bio">
+              <div class="author-img">
+                <a
+                  href="https://abdurochmansidik.my.id/author/abdurochmansidik/"
+                >
+                  <img
+                    alt="Abdurochman Sidik"
+                    src="https://secure.gravatar.com/avatar/cd450e7614e24c8fad74d900d1f66028?s=192&#038;d=mm&#038;r=g"
+                    srcset="
+                      https://secure.gravatar.com/avatar/cd450e7614e24c8fad74d900d1f66028?s=384&#038;d=mm&#038;r=g 2x
+                    "
+                    class="avatar avatar-192 photo"
+                    height="192"
+                    width="192"
+                    decoding="async"
+                  />
+                </a>
+              </div>
+
+              <div class="author-info">
+                <h4 class="author-name">Abdurochman Sidik</h4>
+
+                <p>Hello, I am an Indonesian freelancer and blog writer</p>
+              </div>
+            </div>
+          </aside>
+          <nav class="row nav-single">
+            <div class="col-sm-6 nav-previous">
+              <h4>PREVIOUS POST</h4>
+              <a href="https://abdurochmansidik.my.id/steve-jobs/" rel="prev"
+                ><span class="meta-nav">←</span> Steve Jobs</a
+              >
+            </div>
+
+            <div class="col-sm-6 nav-next">
+              <h4>NEXT POST</h4>
+              <a
+                href="https://abdurochmansidik.my.id/web-design-is-95-typography/"
+                rel="next"
+                >Web Design is 95% Typography <span class="meta-nav">→</span></a
+              >
+            </div>
+          </nav>
+
+          <div id="comments" class="comments-area"></div>
+          <!-- end #comments -->
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="qlwapp"
+      class="qlwapp qlwapp-free qlwapp-bubble qlwapp-bottom-right qlwapp-all qlwapp-rounded"
+    >
+      <div class="qlwapp-container">
+        <a
+          class="qlwapp-toggle"
+          data-action="open"
+          data-phone="6289512071613"
+          data-message="Hello! I&#039;m testing the Social Chat plugin https://quadlayers.com/landing/whatsapp-chat/?utm_source=qlwapp_admin"
+          role="button"
+          tabindex="0"
+          target="_blank"
+        >
+          <i class="qlwapp-icon qlwapp-whatsapp-icon"></i>
+          <i class="qlwapp-close" data-action="close">&times;</i>
+        </a>
+      </div>
+    </div>
+    <link
+      rel="stylesheet"
+      id="yarppRelatedCss-css"
+      href="https://abdurochmansidik.my.id/wp-content/plugins/yet-another-related-posts-plugin/style/related.css?ver=5.30.9"
+      type="text/css"
+      media="all"
+    />
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-includes/js/comment-reply.min.js?ver=6.4.1"
+      id="comment-reply-js"
+      async="async"
+      data-wp-strategy="async"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/jquery.address-1.5.min.js"
+      id="address-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/triple.layout.js"
+      id="triple-layout-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/smoothscroll.js"
+      id="smoothscroll-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/nprogress/nprogress.js"
+      id="nprogress-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/fastclick.js"
+      id="fastclick-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-includes/js/imagesloaded.min.js?ver=5.0.0"
+      id="imagesloaded-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/jquery.isotope.min.js"
+      id="isotope-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/jquery.flexslider-min.js"
+      id="flexslider-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/jquery.fitvids.js"
+      id="fitvids-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/jquery.validate.min.js"
+      id="validate-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/jquery.uniform.min.js"
+      id="uniform-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/jquery.fancybox-1.3.4.pack.js"
+      id="fancybox-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/jquery.tooltipster.min.js"
+      id="tooltipster-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/google-code-prettify/prettify.js"
+      id="prettify-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/twitterFetcher_v10_min.js"
+      id="twitter-fetcher-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/mediaelement/mediaelement-and-player.min.js"
+      id="mediaelement-and-player-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/send-mail.js"
+      id="send-mail-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/classie.js"
+      id="classie-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//maps.googleapis.com/maps/api/js"
+      id="cvcard-google-map-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/main.js"
+      id="main-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/themes/cvcard/js/wp-fix.js"
+      id="wp-fix-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://abdurochmansidik.my.id/wp-content/plugins/wp-whatsapp-chat/build/frontend/js/index.js?ver=94d83fb2a949d0dce93a"
+      id="qlwapp-js"
+    ></script>
+  </body>
 </html>
