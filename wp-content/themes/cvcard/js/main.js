@@ -248,7 +248,7 @@ var $container, $blog_container;
 			check out the link below for more information about api usage
 			https://developers.google.com/maps/documentation/javascript/examples/marker-simple
 		*/
-		function initializeMap() {
+		/*function initializeMap() {
 			if($('.map').length) {
 				var mapCanvas = $('#map-canvas');
 				var myLatlng = new google.maps.LatLng(mapCanvas.data("latitude"),mapCanvas.data("longitude"));
@@ -265,7 +265,7 @@ var $container, $blog_container;
 			}
 		  
 		}
-		google.maps.event.addDomListener(window, 'load', initializeMap);
+		google.maps.event.addDomListener(window, 'load', initializeMap);*/
 		// ------------------------------
 		
 		
