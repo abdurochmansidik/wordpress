@@ -130,7 +130,7 @@ var $container, $blog_container;
 				setTimeout(function() { setMasonry(); }, 600);	
 				$.address.change(function() {
 					setActivePage();
-					initializeMap();
+					// initializeMap();
 					setTimeout(function() { setMasonry(); }, 100);	
 					});
 			}
